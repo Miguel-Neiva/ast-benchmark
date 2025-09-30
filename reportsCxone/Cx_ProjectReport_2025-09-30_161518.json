@@ -1,0 +1,443 @@
+{
+ "reportCreationDate": "2025-09-30T16:15:18.884265598Z",
+ "reportType": "Improved Project Report",
+ "header": {
+  "tenantId": "9466949b-ac30-4616-bf0c-14711bb5bf90",
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 1
+   },
+   {
+    "level": "Medium",
+    "value": 5
+   }
+  ]
+ },
+ "projectsOverview": {
+  "numberOfProjects": 1,
+  "projectsList": [
+   {
+    "projectName": "MAD-Goat-Project/mad-goat-docs",
+    "projectId": "f6702c94-3deb-4bb4-90c3-9a2959a5a25e",
+    "projectLink": "https://ast-master-components.dev.cxast.net/projects/f6702c94-3deb-4bb4-90c3-9a2959a5a25e/overview",
+    "projectApplications": [
+     "mad-goat"
+    ],
+    "projectTags": [
+     "mad",
+     "madGoat"
+    ],
+    "severityDistribution": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 5
+     }
+    ],
+    "projectBranchesOverview": [
+     {
+      "branchName": "main",
+      "BranchURL": "https://ast-master-components.dev.cxast.net/projects/f6702c94-3deb-4bb4-90c3-9a2959a5a25e/overview?branch=main",
+      "severityDistribution": [
+       {
+        "level": "Critical",
+        "value": 0
+       },
+       {
+        "level": "High",
+        "value": 1
+       },
+       {
+        "level": "Medium",
+        "value": 5
+       }
+      ],
+      "oldestVulnerability": {
+       "oldestVulnerability": "Container Capabilities Unrestricted",
+       "oldestVulnerabilityScanner": "IaC",
+       "oldestVulnerabilityAge": 145
+      },
+      "lastScan": {
+       "lastScanDate": "2025-05-08T13:10:22.647Z",
+       "lastScanId": "281c2dd8-9ac3-4ade-9684-031be902bf12",
+       "lastScanType": "Full",
+       "scanners": [
+        "SAST",
+        "IaC",
+        "N/A",
+        "CON",
+        "SCA",
+        "N/A"
+       ],
+       "loc": 4183,
+       "sourceOrigin": "github",
+       "tags": [
+        ""
+       ],
+       "preset": "ASA Premium"
+      },
+      "policies": null
+     }
+    ]
+   }
+  ]
+ },
+ "bySeverity": {
+  "totalResults": 6,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "level": "High",
+    "value": 1,
+    "percentage": 16.67,
+    "density": {
+     "value": 1.06
+    }
+   },
+   {
+    "level": "Medium",
+    "value": 5,
+    "percentage": 83.33,
+    "density": {
+     "value": 5.31
+    }
+   }
+  ]
+ },
+ "resolvedBySeverity": {
+  "totalResults": 0,
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0
+   },
+   {
+    "level": "High",
+    "value": 0,
+    "percentage": 0
+   },
+   {
+    "level": "Medium",
+    "value": 0,
+    "percentage": 0
+   }
+  ]
+ },
+ "byState": {
+  "totalResults": 6,
+  "stateDistribution": [
+   {
+    "state": "To Verify",
+    "value": 6,
+    "percentage": 100,
+    "density": {
+     "value": 6.38
+    }
+   },
+   {
+    "state": "Confirmed",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Urgent",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   }
+  ]
+ },
+ "byStatus": {
+  "totalResults": 6,
+  "newResultsOverview": {
+   "numberOfResults": 0,
+   "percentage": 0
+  },
+  "recurrentResultsOverview": {
+   "numberOfResults": 6,
+   "percentage": 100
+  }
+ },
+ "byScanner": {
+  "totalResults": 6,
+  "scannersDistribution": [
+   {
+    "scannerName": "SAST",
+    "numberOfResults": 0,
+    "percentage": 0
+   },
+   {
+    "scannerName": "IaC",
+    "numberOfResults": 6,
+    "percentage": 100
+   },
+   {
+    "scannerName": "SCA",
+    "numberOfResults": 0,
+    "percentage": 0
+   }
+  ]
+ },
+ "languageOverview": [
+  {
+   "languageName": "Dockerfile",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "DockerCompose",
+   "totalResults": 5,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 5
+    }
+   ]
+  }
+ ],
+ "resultsOverview": [
+  {
+   "name": "Dockerfile",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "IaC Security",
+   "type": "Technology"
+  },
+  {
+   "name": "DockerCompose",
+   "totalResults": 5,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 5
+    }
+   ],
+   "engine": "IaC Security",
+   "type": "Technology"
+  }
+ ],
+ "topTenVulnerableFiles": [],
+ "topTenVulnerabilityType": {
+  "vulnerabilitiesList": [
+   {
+    "vulnerabilityType": "Missing User Instruction",
+    "total": 1,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Container Capabilities Unrestricted",
+    "total": 1,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Container Traffic Not Bound To Host Interface",
+    "total": 1,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Healthcheck Not Set",
+    "total": 1,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Privileged Ports Mapped In Container",
+    "total": 1,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Security Opt Not Set",
+    "total": 1,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 1
+     }
+    ]
+   }
+  ]
+ },
+ "topTenOldestVulnerabilities": [
+  {
+   "vulnerabilityType": "Missing User Instruction",
+   "age": 145,
+   "level": "High",
+   "scanner": "IaC"
+  },
+  {
+   "vulnerabilityType": "Container Capabilities Unrestricted",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "IaC"
+  },
+  {
+   "vulnerabilityType": "Container Traffic Not Bound To Host Interface",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "IaC"
+  },
+  {
+   "vulnerabilityType": "Healthcheck Not Set",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "IaC"
+  },
+  {
+   "vulnerabilityType": "Privileged Ports Mapped In Container",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "IaC"
+  },
+  {
+   "vulnerabilityType": "Security Opt Not Set",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "IaC"
+  }
+ ]
+}

@@ -1,0 +1,603 @@
+{
+ "reportCreationDate": "2025-09-30T16:32:05.489603853Z",
+ "reportType": "Vulnerability Type",
+ "reportHeader": {
+  "projectName": "MAD-Goat-Project/mad-keycloak-service",
+  "projectCreationDate": "2025-05-08T11:29:09.544375Z",
+  "tenantId": "9466949b-ac30-4616-bf0c-14711bb5bf90",
+  "scanDate": "2025-05-08T13:09:45.733582Z",
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 6
+   },
+   {
+    "level": "Medium",
+    "value": 5
+   }
+  ],
+  "scannedBranchName": "main",
+  "scanners": [
+   "SAST",
+   "IaC Security",
+   "Container Security",
+   "SCA",
+   "SCS"
+  ],
+  "mainBranch": "N/A"
+ },
+ "reportFilters": {
+  "filters": [
+   {
+    "filterName": "Severity",
+    "included": [
+     "Critical",
+     "High",
+     "Medium"
+    ],
+    "excluded": [
+     "Low",
+     "Information"
+    ]
+   },
+   {
+    "filterName": "Result State",
+    "included": [
+     "To Verify",
+     "Confirmed",
+     "Urgent"
+    ],
+    "excluded": [
+     "Not Exploitable",
+     "Proposed Not Exploitable",
+     "Nana",
+     "Banana",
+     "Choco",
+     "Mocha",
+     "Vanilla",
+     "Strawberry",
+     "Mango",
+     "Pistachio",
+     "IceCreamTastetoPzE",
+     "IceCreamTaste5jBIs",
+     "IceCreamTasteiS0IU",
+     "IceCreamTastekQSxN",
+     "IceCreamTastem7Hhj",
+     "IceCreamTasteQFBTU",
+     "IceCreamTastemAuzA",
+     "IceCreamTasteTQb1e",
+     "IceCreamTaste68fWJ",
+     "IceCreamTastepk4Ha",
+     "IceCreamTastezlr2D",
+     "IceCreamTasteXKVky",
+     "IceCreamTastebbBUx",
+     "IceCreamTastesA3E4",
+     "IceCreamTasteEz3Ku",
+     "IceCreamTasteMwAx9",
+     "IceCreamTasteQRMnC",
+     "IceCreamTasteXPti1",
+     "IceCreamTasteWC4a2",
+     "IceCreamTasteZNFqZ",
+     "IceCreamTasteq9C5b",
+     "IceCreamTasteR87Vw",
+     "IceCreamTasteL1jul",
+     "IceCreamTasteXw3DK",
+     "IceCreamTastePJLD1",
+     "IceCreamTasteJMO0A",
+     "IceCreamTastedsgqS",
+     "IceCreamTasteLEABM",
+     "IceCreamTasteRCsSQ",
+     "IceCreamTasteV2Gvw",
+     "IceCreamTastelDHxX",
+     "IceCreamTasteHDugE",
+     "IceCreamTaste2PhtD",
+     "IceCreamTastef6Ogv",
+     "IceCreamTasteqyRp0",
+     "IceCreamTastewblrb",
+     "IceCreamTaste9D5RW",
+     "IceCreamTasteC8blc",
+     "IceCreamTasteC5Fdg",
+     "IceCreamTaster478k",
+     "IceCreamTaste6BG6H",
+     "IceCreamTastenp0wQ",
+     "IceCreamTasteIwMDi",
+     "IceCreamTastePdWrW",
+     "IceCreamTasteaDTKU",
+     "IceCreamTastes1zvu",
+     "IceCreamTasteJKL5o",
+     "IceCreamTasteoqdDx",
+     "IceCreamTasteypkK2",
+     "IceCreamTasteUzatC",
+     "IceCreamTastel0ZmY",
+     "IceCreamTasteEcU3g",
+     "IceCreamTasterXcWJ",
+     "IceCreamTastevUYEf",
+     "IceCreamTastezDvA8",
+     "IceCreamTasteUIJHn",
+     "IceCreamTastebKvva",
+     "IceCreamTasteugy1C",
+     "IceCreamTaste85wGE",
+     "IceCreamTastejLtyG",
+     "IceCreamTasteAbybX",
+     "IceCreamTaste7Le7O",
+     "IceCreamTaste7gfdo",
+     "IceCreamTastePVK5D",
+     "IceCreamTaste0idfA",
+     "IceCreamTasteyRgqa",
+     "IceCreamTasteruggb",
+     "IceCreamTaste86RGJ",
+     "IceCreamTaste2NFXy",
+     "IceCreamTasten49bw",
+     "IceCreamTasteM8FgO",
+     "IceCreamTasteaE2AC",
+     "IceCreamTastencRSs",
+     "IceCreamTastePeL4P",
+     "IceCreamTasteVJvhD",
+     "IceCreamTasteSA5xJ",
+     "IceCreamTaste29BZn",
+     "IceCreamTaste4aGvs",
+     "IceCreamTasteeUF6P",
+     "IceCreamTastet084r",
+     "IceCreamTasteJ0TyU",
+     "IceCreamTaste0hpH4",
+     "IceCreamTastedifD0",
+     "IceCreamTastetmJYp",
+     "IceCreamTasteqTEyv",
+     "IceCreamTasteD5ZHJ",
+     "IceCreamTaste7GAhv",
+     "IceCreamTastexl3Rj",
+     "IceCreamTastes3pDk",
+     "IceCreamTastenYXVv",
+     "IceCreamTasteuGyKX",
+     "IceCreamTasteLJmBJ",
+     "IceCreamTastebiVn4",
+     "IceCreamTasteudDwQ",
+     "IceCreamTastesgum7",
+     "IceCreamTastewbBbS",
+     "IceCreamTaste7WI6S",
+     "IceCreamTasteXYGmv",
+     "IceCreamTasteecEk4",
+     "IceCreamTaste0tOru",
+     "IceCreamTasteLUl5H",
+     "ruth-containers-state",
+     "Na",
+     "ruth-to-delete",
+     "renatotest",
+     "sca-custom-state-test",
+     "demo1",
+     "MyTest",
+     "MyTest2",
+     "MyTest4",
+     "MyTest5",
+     "1111",
+     "custom-state-7498171209555258686",
+     "test-iryna2",
+     "test-iryna3",
+     "custom-state-4980719722099858865",
+     "custom-state-2137318357268602066",
+     "custom-state-739519666182661190",
+     "aaaaa",
+     "state2808",
+     "custom-state-7916991054178852843",
+     "test-iryna4",
+     "Custom State Feedback Test",
+     "Custom State Feedback Test0lz4",
+     "Custom State Feedback TestdUAA",
+     "Custom State Feedback Testzp9V",
+     "Custom State Feedback TestKA9e",
+     "Custom State Feedback Testcn6g",
+     "Custom State Feedback TestgUNZ",
+     "test_state",
+     "custom-state-8467768294313851466",
+     "system-tests",
+     "79291c6f-6d01-4a26-a09c-689139a9a43b",
+     "very customable state123123",
+     "CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_END",
+     "CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_E  ",
+     "demo2",
+     "demo3",
+     "test-cutom-state",
+     "michaltest",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvk",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvl",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvz",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvx",
+     "eyJhbGciOiJSUzI1NiIs chghfgkmnbnmghxfgfxgjbhbnmhcgf",
+     "Custom State Feedback TestosNJ",
+     "Custom State Feedback TestVUvf",
+     "Custom State Feedback TestnMps",
+     "Custom State Feedback Test28Pk",
+     "Custom State Feedback TestnBXc",
+     "Custom State Feedback TestZOm9",
+     "Custom State Feedback TestlP9s",
+     "Custom State Feedback TestNJFP",
+     "Custom State Feedback TestupnA",
+     "Custom State Feedback TestZsjq",
+     "Custom State Feedback TestXj02",
+     "Custom State Feedback TestVWcY",
+     "Custom State Feedback TestfnLu",
+     "Custom State Feedback Test7eWc",
+     "cache test",
+     "cache2 test",
+     "Custom State Feedback TestNssb",
+     "Custom State Feedback TestxAT5",
+     "Custom State Feedback Test9ym2",
+     "Custom State Feedback Test1DBT",
+     "Custom State Feedback TestiRWO",
+     "Custom State Feedback TestFIdG",
+     "Custom State Feedback TestgkLG",
+     "Custom State Feedback TestKD80",
+     "Custom State Feedback TestUvfN",
+     "Custom State Feedback TestZ7ZE",
+     "Custom State Feedback TestPn6K",
+     "Custom State Feedback TestJVeH",
+     "Custom State Feedback TestigpJ",
+     "Custom State Feedback Test50Nt",
+     "Custom State Feedback TestxdA4",
+     "Custom State Feedback Test1Pdr",
+     "Custom State Feedback TestfuZy",
+     "Custom State Feedback TestZMRE",
+     "Custom State Feedback TestCgGZ",
+     "Custom State Feedback Testnuv4",
+     "Custom State Feedback TestnLfX",
+     "Custom State Feedback TestPT17",
+     "Custom State Feedback TestUHSk",
+     "test-iryna5",
+     "TestCustomState_1757853563",
+     "CustomState_101",
+     "CustomState_102",
+     "TestCustomState_1757834998",
+     "TestCustomState_1757838233",
+     "TestCustomState_1757847808",
+     "TestCustomState_1757851477",
+     "TestCustomState_1757853375",
+     "MyTest3",
+     "MyTest6",
+     "giant_state_aslkjebnvalskrejbvnadsrlkjbnaserlkbjnasRBLKAJSRNBKLASREJENBASPLKERKJBNASDRB",
+     " not_trimmed_state ",
+     "LowerCaseState",
+     "custom-state-4773700542537814097"
+    ]
+   },
+   {
+    "filterName": "Status",
+    "included": [
+     "New",
+     "Recurrent"
+    ],
+    "excluded": []
+   },
+   {
+    "filterName": "Scanners",
+    "included": [
+     "SAST",
+     "IaC Security",
+     "Container Security",
+     "SCA",
+     "SCS"
+    ],
+    "excluded": []
+   }
+  ],
+  "resultsLimit": "10000"
+ },
+ "scanInformation": {
+  "scanId": "d14e1c0f-c23d-4a15-a655-d0842260cf9b",
+  "scanInitiator": "org_admin",
+  "scanDuration": 1815843081000,
+  "preset": "N/A",
+  "totalScannedLoc": 32,
+  "scannedLoc": 0,
+  "iacScannedLoc": 32,
+  "totalScannedFiles": 2,
+  "scannedFiles": 0,
+  "iacScannedFiles": 2,
+  "viewerLink": "https://ast-master-components.dev.cxast.net/sast-results/5e4d112e-da9b-4d06-a9d5-33232968e397/d14e1c0f-c23d-4a15-a655-d0842260cf9b",
+  "sourceOrigin": "github",
+  "scanType": "N/A",
+  "branch": "main",
+  "totalDensity": 62.5,
+  "density": 0,
+  "iacDensity": 62.5,
+  "groups": null,
+  "scanners": [
+   "SAST",
+   "IaC Security",
+   "Container Security",
+   "SCA",
+   "SCS"
+  ],
+  "scannerStatus": [
+   {
+    "name": "SCS",
+    "status": "Completed"
+   },
+   {
+    "name": "SAST",
+    "status": "Completed"
+   },
+   {
+    "name": "SCA",
+    "status": "Completed"
+   },
+   {
+    "name": "Container Security",
+    "status": "Failed"
+   },
+   {
+    "name": "IaC Security",
+    "status": "Completed"
+   }
+  ]
+ },
+ "projectAndScanTags": {
+  "scanTags": null,
+  "projectTags": {
+   "mad": "",
+   "madGoat": ""
+  }
+ },
+ "densityGrade": {
+  "totalResults": 2,
+  "loc": 32,
+  "density": 62.5
+ },
+ "scannerOverview": {
+  "totalResults": 11,
+  "sastResults": {
+   "engine": "SAST",
+   "value": 0,
+   "percentage": 0
+  },
+  "iacResults": {
+   "engine": "IaC Security",
+   "value": 2,
+   "percentage": 18.18
+  },
+  "scaResults": {
+   "engine": "SCA",
+   "value": 0,
+   "percentage": 0
+  },
+  "containersResults": {
+   "engine": "Container Security",
+   "value": 0,
+   "percentage": 0
+  },
+  "scsResults": {
+   "engine": "SCS",
+   "value": 9,
+   "percentage": 81.82
+  }
+ },
+ "statusOverview": {
+  "totalResults": 11,
+  "newResultsOverview": {
+   "numberOfResults": 9,
+   "percentage": 81.82
+  },
+  "recurrentResultsOverview": {
+   "numberOfResults": 2,
+   "percentage": 18.18
+  }
+ },
+ "stateOverview": {
+  "totalResults": 11,
+  "stateDistribution": [
+   {
+    "state": "To Verify",
+    "numberOfResults": 11,
+    "percentage": 100,
+    "density": {
+     "value": 62.5
+    }
+   },
+   {
+    "state": "Confirmed",
+    "numberOfResults": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Urgent",
+    "numberOfResults": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   }
+  ]
+ },
+ "languageOverview": [],
+ "technologyOverview": [
+  {
+   "technologyName": "Dockerfile",
+   "totalResults": 2,
+   "density": {
+    "value": 62.5
+   },
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  }
+ ],
+ "packageOverview": [],
+ "severityOverview": {
+  "totalResults": 11,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "level": "High",
+    "value": 6,
+    "percentage": 54.55,
+    "density": {
+     "value": 187.5
+    }
+   },
+   {
+    "level": "Medium",
+    "value": 5,
+    "percentage": 45.45,
+    "density": {
+     "value": 156.25
+    }
+   }
+  ]
+ },
+ "containersOverview": null,
+ "vulnerabilitiesTable": {
+  "totals": {
+   "detectedFiles": 0,
+   "resultsDistribution": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  "vulnerabilityTypes": []
+ },
+ "topTenVulnerabilities": {
+  "vulnerableFiles": 0,
+  "totalVulnerabilities": 0,
+  "vulnerabilitiesList": []
+ },
+ "topTenVulnerableFiles": {
+  "vulnerableFiles": 0,
+  "totalFiles": 0,
+  "vulnerableFilesList": []
+ },
+ "topFiveOldestBySeverity": [],
+ "scanResults": {
+  "totalResults": 0,
+  "severitiesBreakdown": [],
+  "resultsList": []
+ },
+ "iacScanResults": {
+  "totalResults": 2,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 1
+   },
+   {
+    "level": "Medium",
+    "value": 1
+   }
+  ],
+  "technology": [
+   {
+    "name": "Dockerfile",
+    "totalResults": 2,
+    "queries": [
+     {
+      "queryName": "Missing User Instruction",
+      "totalResults": 1,
+      "description": "A user should be specified in the dockerfile, otherwise the image will run as root",
+      "category": "Build Process",
+      "resultsList": [
+       {
+        "severity": "High",
+        "resultViewerLink": "https://ast-master-components.dev.cxast.net/results/d14e1c0f-c23d-4a15-a655-d0842260cf9b/5e4d112e-da9b-4d06-a9d5-33232968e397/kics?result-id=1%2FST8RxgKrNxCVevchSJiTdDr7c%3D",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstScanID": "96165728-660e-4fb1-9759-7bd35a0b8b3e",
+        "firstDetectionDate": "2025-05-08T11:29:36Z",
+        "lastDetectionDate": "2025-05-08T13:10:09Z",
+        "fileName": "/keycloak/Dockerfile",
+        "issueType": "MissingAttribute",
+        "actualValue": "The 'Dockerfile' does not contain any 'USER' instruction",
+        "expectedValue": "The 'Dockerfile' should contain the 'USER' instruction"
+       }
+      ]
+     },
+     {
+      "queryName": "Image Version Using 'latest'",
+      "totalResults": 1,
+      "description": "When building images, always tag them with useful tags which codify version information, intended destination (prod or test, for instance), stability, or other information that is useful when deploying the application in different environments. Do not rely on the automatically-created latest tag",
+      "category": "Best Practices",
+      "resultsList": [
+       {
+        "severity": "Medium",
+        "resultViewerLink": "https://ast-master-components.dev.cxast.net/results/d14e1c0f-c23d-4a15-a655-d0842260cf9b/5e4d112e-da9b-4d06-a9d5-33232968e397/kics?result-id=dM5nG7wDSJpgmUVKJjXSt0VEnjM%3D",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstScanID": "96165728-660e-4fb1-9759-7bd35a0b8b3e",
+        "firstDetectionDate": "2025-05-08T11:29:36Z",
+        "lastDetectionDate": "2025-05-08T13:10:09Z",
+        "fileName": "/keycloak/Dockerfile",
+        "issueType": "IncorrectValue",
+        "actualValue": "FROM quay.io/keycloak/keycloak:latest'",
+        "expectedValue": "FROM quay.io/keycloak/keycloak:latest:'version' where version should not be 'latest'"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "scaScanResults": {
+  "totalResults": 0,
+  "severitiesBreakdown": [],
+  "packages": []
+ },
+ "containerScanResults": null,
+ "categories": [],
+ "resolvedVulnerabilities": {
+  "resolvedTotal": 0,
+  "resolvedVulnerabilities": []
+ },
+ "vulnerabilityDetails": [],
+ "scsSummaryResults": [
+  {
+   "totalResults": 9,
+   "severitiesBreakdown": [
+    {
+     "level": "High",
+     "value": 5
+    },
+    {
+     "level": "Medium",
+     "value": 4
+    }
+   ],
+   "engineName": "Scorecard"
+  }
+ ]
+}

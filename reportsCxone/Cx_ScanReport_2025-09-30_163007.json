@@ -1,0 +1,1160 @@
+{
+ "reportCreationDate": "2025-09-30T16:30:07.995184506Z",
+ "reportType": "Vulnerability Type",
+ "reportHeader": {
+  "projectName": "MAD-Goat-Project/mad-name-generator",
+  "projectCreationDate": "2025-05-08T11:29:09.603629Z",
+  "tenantId": "9466949b-ac30-4616-bf0c-14711bb5bf90",
+  "scanDate": "2025-05-08T13:10:53.639244Z",
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 16
+   },
+   {
+    "level": "Medium",
+    "value": 6
+   }
+  ],
+  "scannedBranchName": "main",
+  "scanners": [
+   "SAST",
+   "IaC Security",
+   "Container Security",
+   "SCA",
+   "SCS"
+  ],
+  "mainBranch": "N/A"
+ },
+ "reportFilters": {
+  "filters": [
+   {
+    "filterName": "Severity",
+    "included": [
+     "Critical",
+     "High",
+     "Medium"
+    ],
+    "excluded": [
+     "Low",
+     "Information"
+    ]
+   },
+   {
+    "filterName": "Result State",
+    "included": [
+     "To Verify",
+     "Confirmed",
+     "Urgent"
+    ],
+    "excluded": [
+     "Not Exploitable",
+     "Proposed Not Exploitable",
+     "renatotest",
+     "sca-custom-state-test",
+     "demo1",
+     "MyTest",
+     "MyTest2",
+     "MyTest4",
+     "MyTest5",
+     "1111",
+     "custom-state-7498171209555258686",
+     "test-iryna2",
+     "test-iryna3",
+     "custom-state-4980719722099858865",
+     "custom-state-2137318357268602066",
+     "custom-state-739519666182661190",
+     "aaaaa",
+     "state2808",
+     "custom-state-7916991054178852843",
+     "test-iryna4",
+     "Custom State Feedback Test",
+     "Custom State Feedback Test0lz4",
+     "Custom State Feedback TestdUAA",
+     "Custom State Feedback Testzp9V",
+     "Custom State Feedback TestKA9e",
+     "Custom State Feedback Testcn6g",
+     "Custom State Feedback TestgUNZ",
+     "test_state",
+     "custom-state-8467768294313851466",
+     "system-tests",
+     "79291c6f-6d01-4a26-a09c-689139a9a43b",
+     "very customable state123123",
+     "CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_END",
+     "CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_E  ",
+     "demo2",
+     "demo3",
+     "test-cutom-state",
+     "michaltest",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvk",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvl",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvz",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvx",
+     "eyJhbGciOiJSUzI1NiIs chghfgkmnbnmghxfgfxgjbhbnmhcgf",
+     "Custom State Feedback TestosNJ",
+     "Custom State Feedback TestVUvf",
+     "Custom State Feedback TestnMps",
+     "Custom State Feedback Test28Pk",
+     "Custom State Feedback TestnBXc",
+     "Custom State Feedback TestZOm9",
+     "Custom State Feedback TestlP9s",
+     "Custom State Feedback TestNJFP",
+     "Custom State Feedback TestupnA",
+     "Custom State Feedback TestZsjq",
+     "Custom State Feedback TestXj02",
+     "Custom State Feedback TestVWcY",
+     "Custom State Feedback TestfnLu",
+     "Custom State Feedback Test7eWc",
+     "cache test",
+     "cache2 test",
+     "Custom State Feedback TestNssb",
+     "Custom State Feedback TestxAT5",
+     "Custom State Feedback Test9ym2",
+     "Custom State Feedback Test1DBT",
+     "Custom State Feedback TestiRWO",
+     "Custom State Feedback TestFIdG",
+     "Custom State Feedback TestgkLG",
+     "Custom State Feedback TestKD80",
+     "Custom State Feedback TestUvfN",
+     "Custom State Feedback TestZ7ZE",
+     "Custom State Feedback TestPn6K",
+     "Custom State Feedback TestJVeH",
+     "Custom State Feedback TestigpJ",
+     "Custom State Feedback Test50Nt",
+     "Custom State Feedback TestxdA4",
+     "Custom State Feedback Test1Pdr",
+     "Custom State Feedback TestfuZy",
+     "Custom State Feedback TestZMRE",
+     "Custom State Feedback TestCgGZ",
+     "Custom State Feedback Testnuv4",
+     "Custom State Feedback TestnLfX",
+     "Custom State Feedback TestPT17",
+     "Custom State Feedback TestUHSk",
+     "test-iryna5",
+     "TestCustomState_1757853563",
+     "CustomState_101",
+     "CustomState_102",
+     "TestCustomState_1757834998",
+     "TestCustomState_1757838233",
+     "TestCustomState_1757847808",
+     "TestCustomState_1757851477",
+     "TestCustomState_1757853375",
+     "MyTest3",
+     "MyTest6",
+     "giant_state_aslkjebnvalskrejbvnadsrlkjbnaserlkbjnasRBLKAJSRNBKLASREJENBASPLKERKJBNASDRB",
+     " not_trimmed_state ",
+     "LowerCaseState",
+     "custom-state-4773700542537814097"
+    ]
+   },
+   {
+    "filterName": "Status",
+    "included": [
+     "New",
+     "Recurrent"
+    ],
+    "excluded": []
+   },
+   {
+    "filterName": "Scanners",
+    "included": [
+     "SAST",
+     "IaC Security",
+     "Container Security",
+     "SCA",
+     "SCS"
+    ],
+    "excluded": []
+   }
+  ],
+  "resultsLimit": "10000"
+ },
+ "scanInformation": {
+  "scanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+  "scanInitiator": "org_admin",
+  "scanDuration": 69507534000,
+  "preset": "N/A",
+  "totalScannedLoc": 117,
+  "scannedLoc": 0,
+  "iacScannedLoc": 117,
+  "totalScannedFiles": 6,
+  "scannedFiles": 0,
+  "iacScannedFiles": 6,
+  "viewerLink": "https://ast-master-components.dev.cxast.net/sast-results/215ac995-6d92-47ab-8fbf-cc2852ebcad9/78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+  "sourceOrigin": "github",
+  "scanType": "N/A",
+  "branch": "main",
+  "totalDensity": 0,
+  "density": 0,
+  "iacDensity": 0,
+  "groups": null,
+  "scanners": [
+   "SAST",
+   "IaC Security",
+   "Container Security",
+   "SCA",
+   "SCS"
+  ],
+  "scannerStatus": [
+   {
+    "name": "SAST",
+    "status": "Completed"
+   },
+   {
+    "name": "SCA",
+    "status": "Completed"
+   },
+   {
+    "name": "Container Security",
+    "status": "Failed"
+   },
+   {
+    "name": "IaC Security",
+    "status": "Completed"
+   },
+   {
+    "name": "SCS",
+    "status": "Completed"
+   }
+  ]
+ },
+ "projectAndScanTags": {
+  "scanTags": null,
+  "projectTags": {
+   "mad": "",
+   "madGoat": ""
+  }
+ },
+ "densityGrade": {
+  "totalResults": 0,
+  "loc": 117,
+  "density": 0
+ },
+ "scannerOverview": {
+  "totalResults": 22,
+  "sastResults": {
+   "engine": "SAST",
+   "value": 0,
+   "percentage": 0
+  },
+  "iacResults": {
+   "engine": "IaC Security",
+   "value": 0,
+   "percentage": 0
+  },
+  "scaResults": {
+   "engine": "SCA",
+   "value": 11,
+   "percentage": 50
+  },
+  "containersResults": {
+   "engine": "Container Security",
+   "value": 0,
+   "percentage": 0
+  },
+  "scsResults": {
+   "engine": "SCS",
+   "value": 11,
+   "percentage": 50
+  }
+ },
+ "statusOverview": {
+  "totalResults": 22,
+  "newResultsOverview": {
+   "numberOfResults": 11,
+   "percentage": 50
+  },
+  "recurrentResultsOverview": {
+   "numberOfResults": 11,
+   "percentage": 50
+  }
+ },
+ "stateOverview": {
+  "totalResults": 22,
+  "stateDistribution": [
+   {
+    "state": "To Verify",
+    "numberOfResults": 22,
+    "percentage": 100,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Confirmed",
+    "numberOfResults": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Urgent",
+    "numberOfResults": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   }
+  ]
+ },
+ "languageOverview": [],
+ "technologyOverview": [],
+ "packageOverview": [
+  {
+   "packageName": "Npm-@babel/traverse-7.21.4",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-braces-3.0.2",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-cross-spawn-7.0.3",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-inflight-1.0.6",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-semver-5.7.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-semver-6.3.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-semver-7.0.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-semver-7.5.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-word-wrap-1.2.3",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-@babel/helpers-7.21.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-micromatch-4.0.5",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  }
+ ],
+ "severityOverview": {
+  "totalResults": 22,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "level": "High",
+    "value": 16,
+    "percentage": 72.73,
+    "density": {
+     "value": 59.83
+    }
+   },
+   {
+    "level": "Medium",
+    "value": 6,
+    "percentage": 27.27,
+    "density": {
+     "value": 34.19
+    }
+   }
+  ]
+ },
+ "containersOverview": null,
+ "vulnerabilitiesTable": {
+  "totals": {
+   "detectedFiles": 0,
+   "resultsDistribution": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  "vulnerabilityTypes": []
+ },
+ "topTenVulnerabilities": {
+  "vulnerableFiles": 0,
+  "totalVulnerabilities": 0,
+  "vulnerabilitiesList": []
+ },
+ "topTenVulnerableFiles": {
+  "vulnerableFiles": 0,
+  "totalFiles": 0,
+  "vulnerableFilesList": []
+ },
+ "topFiveOldestBySeverity": [],
+ "scanResults": {
+  "totalResults": 0,
+  "severitiesBreakdown": [],
+  "resultsList": []
+ },
+ "iacScanResults": {
+  "totalResults": 0,
+  "severitiesBreakdown": [],
+  "technology": []
+ },
+ "scaScanResults": {
+  "totalResults": 11,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 9
+   },
+   {
+    "level": "Medium",
+    "value": 2
+   }
+  ],
+  "packages": [
+   {
+    "packageName": "word-wrap",
+    "packageId": "Npm-word-wrap-1.2.3",
+    "packageVersion": "1.2.3",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "cpIr8kDzkAA71P2AMcN7sQBv0qpVNYtlU0kQBRW+BRE=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": true,
+        "cve": "CVE-2023-26115",
+        "description": "Versions prior to 1.24 of the package word-wrap are vulnerable to Regular Expression Denial of Service (ReDoS) due to the usage of an insecure regular expression within the result variable.\n",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-j8xg-fqg3-53r7",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/jonschlinkert/word-wrap/issues/32",
+          "type": "Issue"
+         },
+         {
+          "url": "https://github.com/jonschlinkert/word-wrap/pull/33",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/jonschlinkert/word-wrap/commit/d6e85142e85d939faeaac4307dcb19f15e553027",
+          "type": "Commit"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "@babel/traverse",
+    "packageId": "Npm-@babel/traverse-7.21.4",
+    "packageVersion": "7.21.4",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-697",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "SISzIeOvq6QxaBpF796aoDFzu/pUGJcpn2wUlqY3SzM=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": true,
+        "cve": "CVE-2023-45133",
+        "description": "Babel is a compiler for writing JavaScript. In `@babel/traverse` versions prior to 7.23.2 and 8.0.x prior to 8.0.0-alpha.4, using Babel to compile code that was specifically crafted by an attacker can lead to arbitrary code execution during compilation, when using plugins that rely on the `path.evaluate()`or `path.evaluateTruthy()` internal Babel methods. This issue also affects babel-traverse versions through 7.0.0-beta.3. Known affected plugins are `@babel/plugin-transform-runtime`; `@babel/preset-env` when using its `useBuiltIns` option; and any \"polyfill provider\" plugin that depends on `@babel/helper-define-polyfill-provider`, such as `babel-plugin-polyfill-corejs3`, `babel-plugin-polyfill-corejs2`, `babel-plugin-polyfill-es-shims`, `babel-plugin-polyfill-regenerator`. No other plugins under the `@babel/` namespace are impacted, but third-party plugins might be. Users that only compile trusted code are not impacted. Those who cannot upgrade `@babel/traverse` and are using one of the affected packages mentioned above should upgrade them to their latest version to avoid triggering the vulnerable code path in affected `@babel/traverse` versions: `@babel/plugin-transform-runtime` v7.23.2, `@babel/preset-env` v7.23.2, `@babel/helper-define-polyfill-provider` v0.4.3, `babel-plugin-polyfill-corejs2` v0.4.6, `babel-plugin-polyfill-corejs3` v0.8.5, `babel-plugin-polyfill-es-shims` v0.10.0, `babel-plugin-polyfill-regenerator` v0.5.3.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-67hx-6x53-jw92",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/babel/babel/releases/tag/v7.23.2",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/babel/babel/pull/16033",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/babel/babel/commit/b13376b346946e3f62fc0848c1d2a23223314c82",
+          "type": "Commit"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "inflight",
+    "packageId": "Npm-inflight-1.0.6",
+    "packageVersion": "1.0.6",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-772",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "5ZwLDX+VZH1+OaGgFUwbZzl+vWEbNTkBs9nU+NPyPUI=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": false,
+        "cve": "Cxdca8e59f-8bfe",
+        "description": "In NPM `inflight` there is a Memory Leak because some resources are not freed correctly after being used. It appears to affect all versions, as the issue was not addressed and no fix is found. NOTE: In the meantime, `logdna-agent`, a package that depends on `inflight`, has merged a commit to address this solely in their package (so it should be fixed in `logdna-agent` in versions 1.6.5 and later). `Node-glob`, a package that also depends on `inflight`, was also planning to address this by not using `inflight` after version 8 is released, but it is still being used.",
+        "references": [
+         {
+          "url": "https://github.com/npm/inflight/issues/5",
+          "type": "Issue"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "semver",
+    "packageId": "Npm-semver-5.7.1",
+    "packageVersion": "5.7.1",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "cneKxLNNAukb3ZDIL5uKqgrEeUGs1QFPlT1Cg7PAjRs=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": true,
+        "cve": "CVE-2022-25883",
+        "description": "The package semver versions prior to 5.7.2, 6.x through 6.3.0 and 7.x through 7.5.1 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function \"new Range\", when untrusted user data is provided as a range.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441",
+          "type": "Commit",
+          "comment": "Main fix"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/pull/564",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0",
+          "type": "Commit",
+          "comment": "Backport fix (v5.7.2)"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c",
+          "type": "Commit",
+          "comment": "Backport fix (v6.3.1)"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "semver",
+    "packageId": "Npm-semver-6.3.0",
+    "packageVersion": "6.3.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "JJR+WtrtQABA4foIN9c7OyrFgEePyH/44U2L4UHIJwk=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": true,
+        "cve": "CVE-2022-25883",
+        "description": "The package semver versions prior to 5.7.2, 6.x through 6.3.0 and 7.x through 7.5.1 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function \"new Range\", when untrusted user data is provided as a range.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441",
+          "type": "Commit",
+          "comment": "Main fix"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/pull/564",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0",
+          "type": "Commit",
+          "comment": "Backport fix (v5.7.2)"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c",
+          "type": "Commit",
+          "comment": "Backport fix (v6.3.1)"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "semver",
+    "packageId": "Npm-semver-7.0.0",
+    "packageVersion": "7.0.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "uSmA8lCywBz0o9+CYAjkcNpi0EyxRTNEfxFA8e5Ak7E=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": true,
+        "cve": "CVE-2022-25883",
+        "description": "The package semver versions prior to 5.7.2, 6.x through 6.3.0 and 7.x through 7.5.1 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function \"new Range\", when untrusted user data is provided as a range.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441",
+          "type": "Commit",
+          "comment": "Main fix"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/pull/564",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0",
+          "type": "Commit",
+          "comment": "Backport fix (v5.7.2)"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c",
+          "type": "Commit",
+          "comment": "Backport fix (v6.3.1)"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "semver",
+    "packageId": "Npm-semver-7.5.0",
+    "packageVersion": "7.5.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "p2viVq9up+ZQwwf0DnU///jxMem/BAI+IHWDwN8+/pw=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": true,
+        "cve": "CVE-2022-25883",
+        "description": "The package semver versions prior to 5.7.2, 6.x through 6.3.0 and 7.x through 7.5.1 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function \"new Range\", when untrusted user data is provided as a range.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441",
+          "type": "Commit",
+          "comment": "Main fix"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/pull/564",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0",
+          "type": "Commit",
+          "comment": "Backport fix (v5.7.2)"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c",
+          "type": "Commit",
+          "comment": "Backport fix (v6.3.1)"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "braces",
+    "packageId": "Npm-braces-3.0.2",
+    "packageVersion": "3.0.2",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1050",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "lAtZpk+D/UvSIj8uk8Pa8MmGJd4N1tvi1uW5VKetlDo=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": true,
+        "cve": "CVE-2024-4068",
+        "description": "The NPM package \"braces\", versions prior to 3.0.3, fails to limit the number of characters it can handle, which could lead to Memory Exhaustion. In \"lib/parse.js,\" if a malicious user sends \"imbalanced braces\" as input, the parsing will enter a loop, which will cause the program to start allocating heap memory without freeing it at any moment of the loop. Eventually, the JavaScript heap limit is reached, and the program will crash.",
+        "references": [
+         {
+          "url": "https://advisory.checkmarx.net/advisory/CVE-2024-4068/",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/micromatch/braces/issues/35",
+          "type": "Issue"
+         },
+         {
+          "url": "https://github.com/advisories/GHSA-grv7-fg5c-xmjg",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/micromatch/braces/pull/37",
+          "type": "Pull request",
+          "comment": "Reverted fix"
+         },
+         {
+          "url": "https://github.com/micromatch/braces/pull/40",
+          "type": "Pull request",
+          "comment": "Fix PR"
+         },
+         {
+          "url": "https://github.com/micromatch/braces/commit/415d660c3002d1ab7e63dbf490c9851da80596ff",
+          "type": "Commit",
+          "comment": "Lower defaultLength to 10000"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "cross-spawn",
+    "packageId": "Npm-cross-spawn-7.0.3",
+    "packageVersion": "7.0.3",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "ff1XXpKHmmWpY8KHzr1KIfaWhmZlrW7TW/WzqIpxGt0=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": true,
+        "cve": "CVE-2024-21538",
+        "description": "Versions of the package cross-spawn prior to 6.0.6 and 7.x prior to 7.0.5 are vulnerable to Regular Expression Denial of Service (ReDoS), due to improper input sanitization. An attacker can increase the CPU usage and crash the program by crafting a very large and well crafted string.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-3xgq-45jj-v275",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/issues/165",
+          "type": "Issue"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/pull/160",
+          "type": "Pull request",
+          "comment": "Initial PR"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/commit/5ff3a07d9add449021d806e45c4168203aa833ff",
+          "type": "Commit",
+          "comment": "Initial fix"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/issues/163",
+          "type": "Issue"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/pull/162",
+          "type": "Pull request",
+          "comment": "Additional PR"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/commit/640d391fde65388548601d95abedccc12943374f",
+          "type": "Commit",
+          "comment": "Additional fix"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/blob/v7.0.5/CHANGELOG.md",
+          "type": "Release Note"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "@babel/helpers",
+    "packageId": "Npm-@babel/helpers-7.21.0",
+    "packageVersion": "7.21.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "5lf3iU3IXEir9FZQ6ucdwltQcIdWaMoW31fYQgpw8+E=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": true,
+        "cve": "CVE-2025-27789",
+        "description": "Babel is a compiler for writing next-generation JavaScript. In affected versions of Babel, to compile regular expressions named capturing groups, Babel will generate a polyfill for the `.replace` method that has quadratic complexity on some specific replacement pattern strings (i.e. the second argument passed to `.replace`). Generated code is vulnerable if all the following conditions are true: Using Babel to compile regular expressions named capturing groups, using the `.replace` method on a regular expression that contains named capturing groups, and the code using untrusted strings as the second argument of `.replace`. This issue affects @babel/helpers and @babel/runtime-corejs3 packages versions through 7.26.9, and 8.0.0-alpha.0 through 8.0.0-alpha.16 . Note that just updating Babel dependencies is not enough; one will also need to re-compile the code. No known workarounds are available.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-968p-4wvh-cqc8",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/babel/babel/commit/d5952e80c0faa5ec20e35085531b6e572d31dad4",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/babel/babel/pull/17173",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/babel/babel/releases/tag/v8.0.0-alpha.17",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/babel/babel/issues/17174",
+          "type": "Issue"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "micromatch",
+    "packageId": "Npm-micromatch-4.0.5",
+    "packageVersion": "4.0.5",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "SZozkISRuKeiwx2w4STj6IHCUy6pdKUQUrZ/Z1XxfAc=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:56Z",
+        "lastDetectionDate": "2025-05-08T13:10:56Z",
+        "firstScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+        "outdated": true,
+        "cve": "CVE-2024-4067",
+        "description": "The NPM package \"micromatch\" prior to 4.0.8 is vulnerable to Regular Expression Denial of Service (ReDoS). The vulnerability occurs in \"micromatch.braces()\" in \"index.js\" because the pattern \".*\" will greedily match anything. By passing a malicious payload, the pattern matching will keep backtracking to the input while it doesn't find the closing bracket. As the input size increases, the consumption time will also increase until it causes the application to hang or slow down. There was a merged fix but further testing shows the issue still persists. This issue should be mitigated by using a safe pattern that won't start backtracking the regular expression due to its greedy matching.",
+        "references": [
+         {
+          "url": "https://advisory.checkmarx.net/advisory/CVE-2024-4067/",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/micromatch/micromatch/pull/266",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/micromatch/micromatch/commit/03aa8052171e878897eee5d7bb2ae0ae83ec2ade",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/micromatch/micromatch/releases/tag/4.0.8",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/advisories/GHSA-952p-6rrq-rcjv",
+          "type": "Advisory",
+          "comment": "GHSA"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "containerScanResults": null,
+ "categories": [],
+ "resolvedVulnerabilities": {
+  "resolvedTotal": 0,
+  "resolvedVulnerabilities": []
+ },
+ "vulnerabilityDetails": [],
+ "scsSummaryResults": [
+  {
+   "totalResults": 11,
+   "severitiesBreakdown": [
+    {
+     "level": "High",
+     "value": 7
+    },
+    {
+     "level": "Medium",
+     "value": 4
+    }
+   ],
+   "engineName": "Scorecard"
+  }
+ ]
+}

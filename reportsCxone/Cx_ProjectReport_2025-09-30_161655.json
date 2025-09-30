@@ -1,0 +1,408 @@
+{
+ "reportCreationDate": "2025-09-30T16:16:55.783951925Z",
+ "reportType": "Improved Project Report",
+ "header": {
+  "tenantId": "9466949b-ac30-4616-bf0c-14711bb5bf90",
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 4
+   },
+   {
+    "level": "Medium",
+    "value": 1
+   }
+  ]
+ },
+ "projectsOverview": {
+  "numberOfProjects": 1,
+  "projectsList": [
+   {
+    "projectName": "MAD-Goat-Project/mad-goat-images",
+    "projectId": "a245a032-c5a3-4bda-bed6-8385aab2c369",
+    "projectLink": "https://ast-master-components.dev.cxast.net/projects/a245a032-c5a3-4bda-bed6-8385aab2c369/overview",
+    "projectApplications": [
+     "mad-goat"
+    ],
+    "projectTags": [
+     "mad",
+     "madGoat"
+    ],
+    "severityDistribution": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 4
+     },
+     {
+      "level": "Medium",
+      "value": 1
+     }
+    ],
+    "projectBranchesOverview": [
+     {
+      "branchName": "main",
+      "BranchURL": "https://ast-master-components.dev.cxast.net/projects/a245a032-c5a3-4bda-bed6-8385aab2c369/overview?branch=main",
+      "severityDistribution": [
+       {
+        "level": "Critical",
+        "value": 0
+       },
+       {
+        "level": "High",
+        "value": 4
+       },
+       {
+        "level": "Medium",
+        "value": 1
+       }
+      ],
+      "oldestVulnerability": {
+       "oldestVulnerability": "CVE-2023-30861",
+       "oldestVulnerabilityScanner": "SCA",
+       "oldestVulnerabilityAge": 145
+      },
+      "lastScan": {
+       "lastScanDate": "2025-05-08T13:07:19.18Z",
+       "lastScanId": "bc53443b-9a26-4feb-b536-c0c4596aaf9c",
+       "lastScanType": "Full",
+       "scanners": [
+        "SAST",
+        "IaC",
+        "N/A",
+        "CON",
+        "SCA",
+        "N/A"
+       ],
+       "loc": 581,
+       "sourceOrigin": "github",
+       "tags": [
+        ""
+       ],
+       "preset": "ASA Premium"
+      },
+      "policies": null
+     }
+    ]
+   }
+  ]
+ },
+ "bySeverity": {
+  "totalResults": 5,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "level": "High",
+    "value": 4,
+    "percentage": 80,
+    "density": {
+     "value": 6.88
+    }
+   },
+   {
+    "level": "Medium",
+    "value": 1,
+    "percentage": 20,
+    "density": {
+     "value": 1.72
+    }
+   }
+  ]
+ },
+ "resolvedBySeverity": {
+  "totalResults": 0,
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0
+   },
+   {
+    "level": "High",
+    "value": 0,
+    "percentage": 0
+   },
+   {
+    "level": "Medium",
+    "value": 0,
+    "percentage": 0
+   }
+  ]
+ },
+ "byState": {
+  "totalResults": 5,
+  "stateDistribution": [
+   {
+    "state": "To Verify",
+    "value": 5,
+    "percentage": 100,
+    "density": {
+     "value": 8.61
+    }
+   },
+   {
+    "state": "Confirmed",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Urgent",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   }
+  ]
+ },
+ "byStatus": {
+  "totalResults": 5,
+  "newResultsOverview": {
+   "numberOfResults": 0,
+   "percentage": 0
+  },
+  "recurrentResultsOverview": {
+   "numberOfResults": 5,
+   "percentage": 100
+  }
+ },
+ "byScanner": {
+  "totalResults": 5,
+  "scannersDistribution": [
+   {
+    "scannerName": "SAST",
+    "numberOfResults": 4,
+    "percentage": 80
+   },
+   {
+    "scannerName": "IaC",
+    "numberOfResults": 0,
+    "percentage": 0
+   },
+   {
+    "scannerName": "SCA",
+    "numberOfResults": 1,
+    "percentage": 20
+   }
+  ]
+ },
+ "languageOverview": [
+  {
+   "languageName": "Python",
+   "totalResults": 4,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 3
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Python-Flask-2.0.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  }
+ ],
+ "resultsOverview": [
+  {
+   "name": "Python",
+   "totalResults": 4,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 3
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SAST",
+   "type": "Language"
+  },
+  {
+   "name": "Python-Flask-2.0.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  }
+ ],
+ "topTenVulnerableFiles": [
+  {
+   "fileName": "/nginix/commandInjection/app.py",
+   "totalCount": 4,
+   "severityDistribution": [
+    {
+     "level": "High",
+     "value": 3
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  }
+ ],
+ "topTenVulnerabilityType": {
+  "vulnerabilitiesList": [
+   {
+    "vulnerabilityType": "Reflected_XSS",
+    "total": 2,
+    "scanner": "SAST",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 2
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2023-30861",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "SSRF",
+    "total": 1,
+    "scanner": "SAST",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Missing_HSTS_Header",
+    "total": 1,
+    "scanner": "SAST",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 1
+     }
+    ]
+   }
+  ]
+ },
+ "topTenOldestVulnerabilities": [
+  {
+   "vulnerabilityType": "CVE-2023-30861",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "Reflected_XSS",
+   "age": 145,
+   "level": "High",
+   "scanner": "SAST"
+  },
+  {
+   "vulnerabilityType": "SSRF",
+   "age": 145,
+   "level": "High",
+   "scanner": "SAST"
+  },
+  {
+   "vulnerabilityType": "Missing_HSTS_Header",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "SAST"
+  }
+ ]
+}

@@ -1,0 +1,1829 @@
+{
+ "reportCreationDate": "2025-09-30T16:32:47.244610371Z",
+ "reportType": "Vulnerability Type",
+ "reportHeader": {
+  "projectName": "MAD-Goat-Project/mad-nest-microservice-template",
+  "projectCreationDate": "2025-05-08T11:29:09.63708Z",
+  "tenantId": "9466949b-ac30-4616-bf0c-14711bb5bf90",
+  "scanDate": "2025-05-08T13:10:16.551421Z",
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 20
+   },
+   {
+    "level": "Medium",
+    "value": 16
+   }
+  ],
+  "scannedBranchName": "main",
+  "scanners": [
+   "SAST",
+   "IaC Security",
+   "Container Security",
+   "SCA",
+   "SCS"
+  ],
+  "mainBranch": "N/A"
+ },
+ "reportFilters": {
+  "filters": [
+   {
+    "filterName": "Severity",
+    "included": [
+     "Critical",
+     "High",
+     "Medium"
+    ],
+    "excluded": [
+     "Low",
+     "Information"
+    ]
+   },
+   {
+    "filterName": "Result State",
+    "included": [
+     "To Verify",
+     "Confirmed",
+     "Urgent"
+    ],
+    "excluded": [
+     "Not Exploitable",
+     "Proposed Not Exploitable"
+    ]
+   },
+   {
+    "filterName": "Status",
+    "included": [
+     "New",
+     "Recurrent"
+    ],
+    "excluded": []
+   },
+   {
+    "filterName": "Scanners",
+    "included": [
+     "SAST",
+     "IaC Security",
+     "Container Security",
+     "SCA",
+     "SCS"
+    ],
+    "excluded": []
+   }
+  ],
+  "resultsLimit": "10000"
+ },
+ "scanInformation": {
+  "scanId": "019f15cb-3314-485f-b144-c4467249b931",
+  "scanInitiator": "org_admin",
+  "scanDuration": 1804984482000,
+  "preset": "N/A",
+  "totalScannedLoc": 167,
+  "scannedLoc": 0,
+  "iacScannedLoc": 167,
+  "totalScannedFiles": 8,
+  "scannedFiles": 0,
+  "iacScannedFiles": 8,
+  "viewerLink": "https://ast-master-components.dev.cxast.net/sast-results/60891ed1-0567-4585-b25b-1c303b0053ad/019f15cb-3314-485f-b144-c4467249b931",
+  "sourceOrigin": "github",
+  "scanType": "N/A",
+  "branch": "main",
+  "totalDensity": 5.99,
+  "density": 0,
+  "iacDensity": 5.99,
+  "groups": null,
+  "scanners": [
+   "SAST",
+   "IaC Security",
+   "Container Security",
+   "SCA",
+   "SCS"
+  ],
+  "scannerStatus": [
+   {
+    "name": "Container Security",
+    "status": "Failed"
+   },
+   {
+    "name": "IaC Security",
+    "status": "Completed"
+   },
+   {
+    "name": "SCS",
+    "status": "Completed"
+   },
+   {
+    "name": "SAST",
+    "status": "Completed"
+   },
+   {
+    "name": "SCA",
+    "status": "Completed"
+   }
+  ]
+ },
+ "projectAndScanTags": {
+  "scanTags": null,
+  "projectTags": {
+   "mad": "",
+   "madGoat": ""
+  }
+ },
+ "densityGrade": {
+  "totalResults": 1,
+  "loc": 167,
+  "density": 5.99
+ },
+ "scannerOverview": {
+  "totalResults": 36,
+  "sastResults": {
+   "engine": "SAST",
+   "value": 0,
+   "percentage": 0
+  },
+  "iacResults": {
+   "engine": "IaC Security",
+   "value": 1,
+   "percentage": 2.78
+  },
+  "scaResults": {
+   "engine": "SCA",
+   "value": 23,
+   "percentage": 63.89
+  },
+  "containersResults": {
+   "engine": "Container Security",
+   "value": 0,
+   "percentage": 0
+  },
+  "scsResults": {
+   "engine": "SCS",
+   "value": 12,
+   "percentage": 33.33
+  }
+ },
+ "statusOverview": {
+  "totalResults": 36,
+  "newResultsOverview": {
+   "numberOfResults": 12,
+   "percentage": 33.33
+  },
+  "recurrentResultsOverview": {
+   "numberOfResults": 24,
+   "percentage": 66.67
+  }
+ },
+ "stateOverview": {
+  "totalResults": 36,
+  "stateDistribution": [
+   {
+    "state": "To Verify",
+    "numberOfResults": 36,
+    "percentage": 100,
+    "density": {
+     "value": 5.99
+    }
+   },
+   {
+    "state": "Confirmed",
+    "numberOfResults": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Urgent",
+    "numberOfResults": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   }
+  ]
+ },
+ "languageOverview": [],
+ "technologyOverview": [
+  {
+   "technologyName": "Dockerfile",
+   "totalResults": 1,
+   "density": {
+    "value": 5.99
+   },
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  }
+ ],
+ "packageOverview": [
+  {
+   "packageName": "Npm-path-to-regexp-0.1.7",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 2
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-express-4.18.2",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-@babel/traverse-7.21.5",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-body-parser-1.20.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-body-parser-1.20.2",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-braces-3.0.2",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-cross-spawn-7.0.3",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-inflight-1.0.6",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-path-to-regexp-3.2.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-semver-6.3.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-semver-7.5.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-word-wrap-1.2.3",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-@babel/helpers-7.21.5",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-@nestjs/common-9.4.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-cookie-0.5.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-formidable-2.1.2",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-micromatch-4.0.5",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-send-0.18.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-serialize-javascript-6.0.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-serve-static-1.15.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "packageName": "Npm-webpack-5.80.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  }
+ ],
+ "severityOverview": {
+  "totalResults": 36,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "level": "High",
+    "value": 20,
+    "percentage": 55.56,
+    "density": {
+     "value": 47.9
+    }
+   },
+   {
+    "level": "Medium",
+    "value": 16,
+    "percentage": 44.44,
+    "density": {
+     "value": 29.94
+    }
+   }
+  ]
+ },
+ "containersOverview": null,
+ "vulnerabilitiesTable": {
+  "totals": {
+   "detectedFiles": 0,
+   "resultsDistribution": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  "vulnerabilityTypes": []
+ },
+ "topTenVulnerabilities": {
+  "vulnerableFiles": 0,
+  "totalVulnerabilities": 0,
+  "vulnerabilitiesList": []
+ },
+ "topTenVulnerableFiles": {
+  "vulnerableFiles": 0,
+  "totalFiles": 0,
+  "vulnerableFilesList": []
+ },
+ "topFiveOldestBySeverity": [],
+ "scanResults": {
+  "totalResults": 0,
+  "severitiesBreakdown": [],
+  "resultsList": []
+ },
+ "iacScanResults": {
+  "totalResults": 1,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 1
+   },
+   {
+    "level": "Medium",
+    "value": 0
+   }
+  ],
+  "technology": [
+   {
+    "name": "Dockerfile",
+    "totalResults": 1,
+    "queries": [
+     {
+      "queryName": "Missing User Instruction",
+      "totalResults": 1,
+      "description": "A user should be specified in the dockerfile, otherwise the image will run as root",
+      "category": "Build Process",
+      "resultsList": [
+       {
+        "severity": "High",
+        "resultViewerLink": "https://ast-master-components.dev.cxast.net/results/019f15cb-3314-485f-b144-c4467249b931/60891ed1-0567-4585-b25b-1c303b0053ad/kics?result-id=5q7xz3DEnuy9CDD1VKvMaK9X1zY%3D",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstScanID": "f8f863c5-7849-4462-bef3-77214c2c9da5",
+        "firstDetectionDate": "2025-05-08T11:29:38Z",
+        "lastDetectionDate": "2025-05-08T13:10:47Z",
+        "fileName": "/Dockerfile",
+        "issueType": "MissingAttribute",
+        "actualValue": "The 'Dockerfile' does not contain any 'USER' instruction",
+        "expectedValue": "The 'Dockerfile' should contain the 'USER' instruction"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "scaScanResults": {
+  "totalResults": 23,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 12
+   },
+   {
+    "level": "Medium",
+    "value": 11
+   }
+  ],
+  "packages": [
+   {
+    "packageName": "braces",
+    "packageId": "Npm-braces-3.0.2",
+    "packageVersion": "3.0.2",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1050",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "+4w6BG0eABz0FVPeg+S605gMLgZ01RP3eQuW1FR97Ic=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-4068",
+        "description": "The NPM package \"braces\", versions prior to 3.0.3, fails to limit the number of characters it can handle, which could lead to Memory Exhaustion. In \"lib/parse.js,\" if a malicious user sends \"imbalanced braces\" as input, the parsing will enter a loop, which will cause the program to start allocating heap memory without freeing it at any moment of the loop. Eventually, the JavaScript heap limit is reached, and the program will crash.",
+        "references": [
+         {
+          "url": "https://advisory.checkmarx.net/advisory/CVE-2024-4068/",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/micromatch/braces/issues/35",
+          "type": "Issue"
+         },
+         {
+          "url": "https://github.com/advisories/GHSA-grv7-fg5c-xmjg",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/micromatch/braces/pull/37",
+          "type": "Pull request",
+          "comment": "Reverted fix"
+         },
+         {
+          "url": "https://github.com/micromatch/braces/pull/40",
+          "type": "Pull request",
+          "comment": "Fix PR"
+         },
+         {
+          "url": "https://github.com/micromatch/braces/commit/415d660c3002d1ab7e63dbf490c9851da80596ff",
+          "type": "Commit",
+          "comment": "Lower defaultLength to 10000"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "inflight",
+    "packageId": "Npm-inflight-1.0.6",
+    "packageVersion": "1.0.6",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-772",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "sWyfA8IqBLmHjLBcOZeAF3DSNNWBYDPvNvcUX7NAlHs=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": false,
+        "cve": "Cxdca8e59f-8bfe",
+        "description": "In NPM `inflight` there is a Memory Leak because some resources are not freed correctly after being used. It appears to affect all versions, as the issue was not addressed and no fix is found. NOTE: In the meantime, `logdna-agent`, a package that depends on `inflight`, has merged a commit to address this solely in their package (so it should be fixed in `logdna-agent` in versions 1.6.5 and later). `Node-glob`, a package that also depends on `inflight`, was also planning to address this by not using `inflight` after version 8 is released, but it is still being used.",
+        "references": [
+         {
+          "url": "https://github.com/npm/inflight/issues/5",
+          "type": "Issue"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "@babel/traverse",
+    "packageId": "Npm-@babel/traverse-7.21.5",
+    "packageVersion": "7.21.5",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-697",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "hIKL8OadluNOgB5ubOm9HGRqSzcAE5lc8363YAUmmV4=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2023-45133",
+        "description": "Babel is a compiler for writing JavaScript. In `@babel/traverse` versions prior to 7.23.2 and 8.0.x prior to 8.0.0-alpha.4, using Babel to compile code that was specifically crafted by an attacker can lead to arbitrary code execution during compilation, when using plugins that rely on the `path.evaluate()`or `path.evaluateTruthy()` internal Babel methods. This issue also affects babel-traverse versions through 7.0.0-beta.3. Known affected plugins are `@babel/plugin-transform-runtime`; `@babel/preset-env` when using its `useBuiltIns` option; and any \"polyfill provider\" plugin that depends on `@babel/helper-define-polyfill-provider`, such as `babel-plugin-polyfill-corejs3`, `babel-plugin-polyfill-corejs2`, `babel-plugin-polyfill-es-shims`, `babel-plugin-polyfill-regenerator`. No other plugins under the `@babel/` namespace are impacted, but third-party plugins might be. Users that only compile trusted code are not impacted. Those who cannot upgrade `@babel/traverse` and are using one of the affected packages mentioned above should upgrade them to their latest version to avoid triggering the vulnerable code path in affected `@babel/traverse` versions: `@babel/plugin-transform-runtime` v7.23.2, `@babel/preset-env` v7.23.2, `@babel/helper-define-polyfill-provider` v0.4.3, `babel-plugin-polyfill-corejs2` v0.4.6, `babel-plugin-polyfill-corejs3` v0.8.5, `babel-plugin-polyfill-es-shims` v0.10.0, `babel-plugin-polyfill-regenerator` v0.5.3.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-67hx-6x53-jw92",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/babel/babel/releases/tag/v7.23.2",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/babel/babel/pull/16033",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/babel/babel/commit/b13376b346946e3f62fc0848c1d2a23223314c82",
+          "type": "Commit"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "path-to-regexp",
+    "packageId": "Npm-path-to-regexp-0.1.7",
+    "packageVersion": "0.1.7",
+    "totalResults": 2,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 2,
+      "categoryResults": [
+       {
+        "resultId": "tjXOKrdRZg+okE0iwviAcYvO++B+nYgugfQdUcMIggo=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-45296",
+        "description": "The path-to-regexp turns path strings into regular expressions. In certain cases, path-to-regexp will output a regular expression that can be exploited to cause poor performance. Because JavaScript is single threaded and regex matching runs on the main thread, poor performance will block the event loop and lead to a DoS. The bad regular expression is generated any time you have two parameters within a single segment, separated by something that is not a period (.). This issue affects path-to-regexp versions through 0.1.9, 0.2.0 through 1.8.0, 2.0.0 through 3.2.0, 4.0.0 through 6.2.2, and 7.0.0 through 7.2.0.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-9wv6-86v2-598j",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/pillarjs/path-to-regexp/commit/d31670ae8f6e69cbfd56e835742195b7d10942ef",
+          "type": "Commit",
+          "comment": "3.x"
+         },
+         {
+          "url": "https://github.com/pillarjs/path-to-regexp/commit/60f2121e9b66b7b622cc01080df0aabda9eedee6",
+          "type": "Commit",
+          "comment": "8.x"
+         },
+         {
+          "url": "https://github.com/pillarjs/path-to-regexp/releases/tag/v6.3.0",
+          "type": "Release Note"
+         }
+        ]
+       },
+       {
+        "resultId": "snxjqIy4AAtrCPX4guUBcWoGi9MjGll+mUihnDZYW/c=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-52798",
+        "description": "path-to-regexp turns path strings into a regular expressions. In certain cases, path-to-regexp will output a regular expression that can be exploited to cause poor performance. The regular expression that is vulnerable to backtracking can be generated. This issue affects path-to-regexp package versions through 0.1.11. Users are advised to upgrade to 0.1.12. This vulnerability exists because of an incomplete fix for CVE-2024-45296.\n",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-rhx6-c78j-4q9w",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/pillarjs/path-to-regexp/releases/tag/v0.1.12",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/pillarjs/path-to-regexp/commit/f01c26a013b1889f0c217c643964513acf17f6a4",
+          "type": "Commit"
+         },
+         {
+          "url": "https://blakeembrey.com/posts/2024-09-web-redos/",
+          "type": "Blog Post"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "path-to-regexp",
+    "packageId": "Npm-path-to-regexp-3.2.0",
+    "packageVersion": "3.2.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "lZAT9Sin29c90dhIBGD2i1+EnUaMciB106NhRec2+GY=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-45296",
+        "description": "The path-to-regexp turns path strings into regular expressions. In certain cases, path-to-regexp will output a regular expression that can be exploited to cause poor performance. Because JavaScript is single threaded and regex matching runs on the main thread, poor performance will block the event loop and lead to a DoS. The bad regular expression is generated any time you have two parameters within a single segment, separated by something that is not a period (.). This issue affects path-to-regexp versions through 0.1.9, 0.2.0 through 1.8.0, 2.0.0 through 3.2.0, 4.0.0 through 6.2.2, and 7.0.0 through 7.2.0.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-9wv6-86v2-598j",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/pillarjs/path-to-regexp/commit/d31670ae8f6e69cbfd56e835742195b7d10942ef",
+          "type": "Commit",
+          "comment": "3.x"
+         },
+         {
+          "url": "https://github.com/pillarjs/path-to-regexp/commit/60f2121e9b66b7b622cc01080df0aabda9eedee6",
+          "type": "Commit",
+          "comment": "8.x"
+         },
+         {
+          "url": "https://github.com/pillarjs/path-to-regexp/releases/tag/v6.3.0",
+          "type": "Release Note"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "semver",
+    "packageId": "Npm-semver-6.3.0",
+    "packageVersion": "6.3.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "Z/5O8po7BOMs+iWLRt5SOACWbj+BmZqZBn5l0dLzC30=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2022-25883",
+        "description": "The package semver versions prior to 5.7.2, 6.x through 6.3.0 and 7.x through 7.5.1 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function \"new Range\", when untrusted user data is provided as a range.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441",
+          "type": "Commit",
+          "comment": "Main fix"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/pull/564",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0",
+          "type": "Commit",
+          "comment": "Backport fix (v5.7.2)"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c",
+          "type": "Commit",
+          "comment": "Backport fix (v6.3.1)"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "cross-spawn",
+    "packageId": "Npm-cross-spawn-7.0.3",
+    "packageVersion": "7.0.3",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "P9JarYt9iP1KDWkKMD6Z+KTQDceZ2JocJcOLG/MOgpI=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-21538",
+        "description": "Versions of the package cross-spawn prior to 6.0.6 and 7.x prior to 7.0.5 are vulnerable to Regular Expression Denial of Service (ReDoS), due to improper input sanitization. An attacker can increase the CPU usage and crash the program by crafting a very large and well crafted string.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-3xgq-45jj-v275",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/issues/165",
+          "type": "Issue"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/pull/160",
+          "type": "Pull request",
+          "comment": "Initial PR"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/commit/5ff3a07d9add449021d806e45c4168203aa833ff",
+          "type": "Commit",
+          "comment": "Initial fix"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/issues/163",
+          "type": "Issue"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/pull/162",
+          "type": "Pull request",
+          "comment": "Additional PR"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/commit/640d391fde65388548601d95abedccc12943374f",
+          "type": "Commit",
+          "comment": "Additional fix"
+         },
+         {
+          "url": "https://github.com/moxystudio/node-cross-spawn/blob/v7.0.5/CHANGELOG.md",
+          "type": "Release Note"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "word-wrap",
+    "packageId": "Npm-word-wrap-1.2.3",
+    "packageVersion": "1.2.3",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "CekXsyvaGfQGTj9W2d06nSZq8JWOOes6JxwmxOWy0Vs=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2023-26115",
+        "description": "Versions prior to 1.24 of the package word-wrap are vulnerable to Regular Expression Denial of Service (ReDoS) due to the usage of an insecure regular expression within the result variable.\n",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-j8xg-fqg3-53r7",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/jonschlinkert/word-wrap/issues/32",
+          "type": "Issue"
+         },
+         {
+          "url": "https://github.com/jonschlinkert/word-wrap/pull/33",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/jonschlinkert/word-wrap/commit/d6e85142e85d939faeaac4307dcb19f15e553027",
+          "type": "Commit"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "semver",
+    "packageId": "Npm-semver-7.5.0",
+    "packageVersion": "7.5.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "SbCX4X1mbSFsq0uuSX9URPXW+0s0bZOsOHK/v52waxE=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2022-25883",
+        "description": "The package semver versions prior to 5.7.2, 6.x through 6.3.0 and 7.x through 7.5.1 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function \"new Range\", when untrusted user data is provided as a range.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441",
+          "type": "Commit",
+          "comment": "Main fix"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/pull/564",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0",
+          "type": "Commit",
+          "comment": "Backport fix (v5.7.2)"
+         },
+         {
+          "url": "https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c",
+          "type": "Commit",
+          "comment": "Backport fix (v6.3.1)"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "body-parser",
+    "packageId": "Npm-body-parser-1.20.1",
+    "packageVersion": "1.20.1",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-405",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "A5/LLJ07VbDooANJnAqnSq+15BCHjAwqrOGqKgu+y+Q=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-45590",
+        "description": "The body-parser is Node.js body parsing middleware. The body-parser package versions prior to 1.20.3 and 2.0.x prior to 2.0.0 are vulnerable to Denial of Service when URL encoding is enabled. A malicious actor using a specially crafted payload could flood the server with a large number of requests, resulting in Denial of Service. ",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-qwcr-r2fm-qrc7",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/expressjs/body-parser/commit/b2695c4450f06ba3b0ccf48d872a229bb41c9bce",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/expressjs/body-parser/releases/tag/1.20.3",
+          "type": "Release Note"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "body-parser",
+    "packageId": "Npm-body-parser-1.20.2",
+    "packageVersion": "1.20.2",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-405",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "B2+JPlNxZ88gmbVvBSkUlSgHqrHm/ewGMNAtUVlcgyA=",
+        "severity": "High",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-45590",
+        "description": "The body-parser is Node.js body parsing middleware. The body-parser package versions prior to 1.20.3 and 2.0.x prior to 2.0.0 are vulnerable to Denial of Service when URL encoding is enabled. A malicious actor using a specially crafted payload could flood the server with a large number of requests, resulting in Denial of Service. ",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-qwcr-r2fm-qrc7",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/expressjs/body-parser/commit/b2695c4450f06ba3b0ccf48d872a229bb41c9bce",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/expressjs/body-parser/releases/tag/1.20.3",
+          "type": "Release Note"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "formidable",
+    "packageId": "Npm-formidable-2.1.2",
+    "packageVersion": "2.1.2",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-434",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "OslfULe5U7P70xPizLqesJNV6mESoBNv0U539yV9pG0=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2022-29622",
+        "description": "An arbitrary file upload vulnerability in formidable versions prior to 3.2.4, allows attackers to execute arbitrary code via a crafted \"filename\". NOTE: some third parties dispute this issue because the product has common use cases in which uploading arbitrary files is the desired behavior. Also, there are configuration options in all versions that can change the default behavior of how files are handled.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-8cp3-66vr-3r4c",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/node-formidable/formidable/issues/856",
+          "type": "Issue"
+         },
+         {
+          "url": "https://github.com/node-formidable/formidable/pull/857",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/node-formidable/formidable/commit/81dd350835e14dccca667fc46bc5c35f16f1b5ec",
+          "type": "Commit"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "@nestjs/common",
+    "packageId": "Npm-@nestjs/common-9.4.0",
+    "packageVersion": "9.4.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-94",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "orWLop8HxFCUG0kmb++DHrb77Sd7chxthRGFvIzZhcU=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-29409",
+        "description": "A File upload vulnerability in NestJS allows a remote attacker to execute arbitrary code through the Content-Type header.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-cj7v-w2c7-cp7c",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/nestjs/nest/issues/13311",
+          "type": "Issue"
+         },
+         {
+          "url": "https://gist.github.com/aydinnyunus/801342361584d1491c67a820a714f53f",
+          "type": "Disclosure"
+         },
+         {
+          "url": "https://github.com/nestjs/nest/blob/83a48b2c7396985144b7a6cd5d3bee1abb7c5d81/packages/common/pipes/file/file-type.validator.ts#L19",
+          "type": "Vulnerable code"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "cookie",
+    "packageId": "Npm-cookie-0.5.0",
+    "packageVersion": "0.5.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-74",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "E/2EGIbot0lOxeXEiXOD947ORzzWHe7L/cJDQBQQ4VA=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-47764",
+        "description": "The NPM package cookie is a basic HTTP cookie parser and serializer for HTTP servers. The cookie name could be used to set other fields of the cookie, resulting in an unexpected cookie value. A similar escape can be used for \"path\" and \"domain\", which could be abused to alter other fields of the cookie. This vulnerability affects cookie package versions prior to 0.7.0. Users are advised to upgrade to a fixed version, which updates the validation for \"name\", \"path\", and \"domain\".",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-pxg6-pf52-xh8x",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/jshttp/cookie/commit/e10042845354fea83bd8f34af72475eed1dadf5c",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/jshttp/cookie/pull/167",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/jshttp/cookie/releases/tag/v0.7.0",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/jshttp/cookie/issues/165",
+          "type": "Issue"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "express",
+    "packageId": "Npm-express-4.18.2",
+    "packageVersion": "4.18.2",
+    "totalResults": 2,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1286",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "XW6bgmgNV6w0s6KThqUKdD1cqR2oO5qP1oRdU0hzUk0=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-29041",
+        "description": "Express.js minimalist web framework for node. Express.js versions prior to 4.19.2, and 5.0.x prior to 5.0.0-beta.3 are affected by an open redirect vulnerability using malformed URLs. When a user of Express performs a redirect using a user-provided URL Express performs an encode using \"encodeurl\" on the contents before passing it to the \"location\" header. This can cause malformed URLs to be evaluated in unexpected ways by common redirect allow list implementations in Express applications, leading to an Open Redirect via bypass of a properly implemented allow list. The main method impacted is \"res.location()\" but this is also called from within \"res.redirect()\".",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-rv95-896h-c2vc",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/expressjs/express/releases/tag/4.19.2",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/expressjs/express/pull/5551",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/expressjs/express/commit/0867302ddbde0e9463d0564fea5861feb708c2dd",
+          "type": "Commit",
+          "comment": "Initial fix"
+         },
+         {
+          "url": "https://github.com/expressjs/express/pull/5561",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/expressjs/express/commit/0b746953c4bd8e377123527db11f9cd866e39f94",
+          "type": "Commit",
+          "comment": "Additional fix"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "categoryName": "CWE-79",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "SvrKs8thwukHk79GxSc8JkIScuJQSONqiHPDE2zYjJQ=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-43796",
+        "description": "Express.js minimalist web framework for node. In express versions prior to 4.20.0 and 5.0.x prior to 5.0.0, passing untrusted user input even after sanitizing it to \"response.redirect()\" may execute untrusted code.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-qw6h-vgh9-j6wx",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/expressjs/express/commit/54271f69b511fea198471e6ff3400ab805d6b553",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/expressjs/express/releases/tag/4.20.0",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/expressjs/express/pull/5785",
+          "type": "Pull request"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "@babel/helpers",
+    "packageId": "Npm-@babel/helpers-7.21.5",
+    "packageVersion": "7.21.5",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "ltYVrbGavGRiiJOp5ZyxKoCrbS472tX2GqDQxrwy4A8=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2025-27789",
+        "description": "Babel is a compiler for writing next-generation JavaScript. In affected versions of Babel, to compile regular expressions named capturing groups, Babel will generate a polyfill for the `.replace` method that has quadratic complexity on some specific replacement pattern strings (i.e. the second argument passed to `.replace`). Generated code is vulnerable if all the following conditions are true: Using Babel to compile regular expressions named capturing groups, using the `.replace` method on a regular expression that contains named capturing groups, and the code using untrusted strings as the second argument of `.replace`. This issue affects @babel/helpers and @babel/runtime-corejs3 packages versions through 7.26.9, and 8.0.0-alpha.0 through 8.0.0-alpha.16 . Note that just updating Babel dependencies is not enough; one will also need to re-compile the code. No known workarounds are available.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-968p-4wvh-cqc8",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/babel/babel/commit/d5952e80c0faa5ec20e35085531b6e572d31dad4",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/babel/babel/pull/17173",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/babel/babel/releases/tag/v8.0.0-alpha.17",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/babel/babel/issues/17174",
+          "type": "Issue"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "micromatch",
+    "packageId": "Npm-micromatch-4.0.5",
+    "packageVersion": "4.0.5",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-1333",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "HtpOXNyTuOOPOfcvu2Y8xTWsgwjQmjF2AX1jVrTknAc=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-4067",
+        "description": "The NPM package \"micromatch\" prior to 4.0.8 is vulnerable to Regular Expression Denial of Service (ReDoS). The vulnerability occurs in \"micromatch.braces()\" in \"index.js\" because the pattern \".*\" will greedily match anything. By passing a malicious payload, the pattern matching will keep backtracking to the input while it doesn't find the closing bracket. As the input size increases, the consumption time will also increase until it causes the application to hang or slow down. There was a merged fix but further testing shows the issue still persists. This issue should be mitigated by using a safe pattern that won't start backtracking the regular expression due to its greedy matching.",
+        "references": [
+         {
+          "url": "https://advisory.checkmarx.net/advisory/CVE-2024-4067/",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/micromatch/micromatch/pull/266",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/micromatch/micromatch/commit/03aa8052171e878897eee5d7bb2ae0ae83ec2ade",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/micromatch/micromatch/releases/tag/4.0.8",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/advisories/GHSA-952p-6rrq-rcjv",
+          "type": "Advisory",
+          "comment": "GHSA"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "serve-static",
+    "packageId": "Npm-serve-static-1.15.0",
+    "packageVersion": "1.15.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-79",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "td5OHs3jaTpE9VotMPkhjaEY3iEIUhkUoWHWNIq2200=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-43800",
+        "description": "serve-static serves static files. serve-static passes untrusted user input even after sanitizing it to \"redirect()\" and may execute untrusted code. This issue affects serve-static versions prior to 1.16.0 and 2.0.x prior to 2.1.0.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-cm22-4g7w-348p",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/expressjs/serve-static/commit/ce730896fddce1588111d9ef6fdf20896de5c6fa",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/expressjs/serve-static/pull/173",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/expressjs/serve-static/releases/tag/2.1.0",
+          "type": "Release Note"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "webpack",
+    "packageId": "Npm-webpack-5.80.0",
+    "packageVersion": "5.80.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-79",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "FVUAmRx8ImKVX+kPpbEsh2c5VDfW+dc9Tz1OwIotXhY=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-43788",
+        "description": "Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset. The webpack developers have discovered a DOM Clobbering vulnerability in Webpack's \"AutoPublicPathRuntimeModule\". The DOM Clobbering gadget in the module can lead to Cross-Site Scripting (XSS) in web pages where scriptless attacker-controlled HTML elements (e.g., an \"img\" tag with an unsanitized \"name\" attribute) are present. Real-world exploitation of this gadget has been observed in the Canvas LMS which allows an XSS attack to happen through a javascript code compiled by Webpack (the vulnerable part is from Webpack). DOM Clobbering is a type of code-reuse attack where the attacker first embeds a piece of non-script, seemingly benign HTML markups in the webpage (e.g. through a post or comment) and leverages the gadgets (pieces of js code) living in the existing javascript code to transform it into executable code. This vulnerability can lead to Cross-Site Scripting (XSS) on websites that include Webpack-generated files and allow users to inject certain scriptless HTML tags with improperly sanitized name or id attributes. All users are advised to upgrade. There are no known workarounds for this issue. This issue affects webpack versions 5.0.0-beta.32 through 5.93.0.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-4vvj-4cpr-p986",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/webpack/webpack/releases/tag/v5.94.0",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/webpack/webpack/pull/18700",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/webpack/webpack/commit/955e057abc6cc83cbc3fa1e1ef67a49758bf5a61",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/advisories/GHSA-84jw-g43v-8gjm",
+          "type": "Advisory",
+          "comment": "Dependency "
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "send",
+    "packageId": "Npm-send-0.18.0",
+    "packageVersion": "0.18.0",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-79",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "0Yfk3YdU84XYOSnZsaJVnlFUZcUenSyYPAnixK3eXX8=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-43799",
+        "description": "Send is a library for streaming files from the file system as an HTTP response. Send passes untrusted user input to \"SendStream.redirect()\" which executes untrusted code. This vulnerability affects send versions through 0.18.0, and 1.0.0-beta.1 through 1.0.0.",
+        "references": [
+         {
+          "url": "https://github.com/advisories/GHSA-m6fv-jmcg-4jfg",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/pillarjs/send/commit/8eaab61ebece87e1103fb4d2884b0f4f6977c173",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/pillarjs/send/releases/tag/1.1.0",
+          "type": "Release Note"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "packageName": "serialize-javascript",
+    "packageId": "Npm-serialize-javascript-6.0.1",
+    "packageVersion": "6.0.1",
+    "totalResults": 1,
+    "packageCategory": [
+     {
+      "categoryName": "CWE-79",
+      "totalResults": 1,
+      "categoryResults": [
+       {
+        "resultId": "yJ1RhHlNW+GO2queTWvmlOD94MUfejOxTZqFrnZH8dc=",
+        "severity": "Medium",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstDetectionDate": "2025-05-08T13:10:19Z",
+        "lastDetectionDate": "2025-05-08T13:10:19Z",
+        "firstScanId": "019f15cb-3314-485f-b144-c4467249b931",
+        "outdated": true,
+        "cve": "CVE-2024-11831",
+        "description": "A flaw was found in npm-serialize-javascript. The vulnerability occurs because the serialize-javascript module does not properly sanitize certain inputs, such as regex or other JavaScript object types, allowing an attacker to inject malicious code. This code could be executed when deserialized by a web browser, causing Cross-site scripting (XSS) attacks. This issue is critical in environments where serialized data is sent to web clients, potentially compromising the security of the website or web application using this package. This issue affects versions prior to 6.0.2.",
+        "references": [
+         {
+          "url": "http://github.com/yahoo/serialize-javascript/pull/173",
+          "type": "Pull request"
+         },
+         {
+          "url": "https://github.com/advisories/GHSA-76p7-773f-r4q5",
+          "type": "Advisory"
+         },
+         {
+          "url": "https://github.com/yahoo/serialize-javascript/commit/f27d65d3de42affe2aac14607066c293891cec4e",
+          "type": "Commit"
+         },
+         {
+          "url": "https://github.com/yahoo/serialize-javascript/releases/tag/v6.0.2",
+          "type": "Release Note"
+         },
+         {
+          "url": "https://github.com/yahoo/serialize-javascript/issues/172",
+          "type": "Issue"
+         },
+         {
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2312579",
+          "type": "Issue"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "containerScanResults": null,
+ "categories": [],
+ "resolvedVulnerabilities": {
+  "resolvedTotal": 0,
+  "resolvedVulnerabilities": []
+ },
+ "vulnerabilityDetails": [],
+ "scsSummaryResults": [
+  {
+   "totalResults": 1,
+   "severitiesBreakdown": [
+    {
+     "level": "High",
+     "value": 1
+    }
+   ],
+   "engineName": "2ms"
+  },
+  {
+   "totalResults": 11,
+   "severitiesBreakdown": [
+    {
+     "level": "High",
+     "value": 6
+    },
+    {
+     "level": "Medium",
+     "value": 5
+    }
+   ],
+   "engineName": "Scorecard"
+  }
+ ]
+}

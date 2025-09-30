@@ -1,0 +1,961 @@
+{
+ "reportCreationDate": "2025-09-30T16:10:56.243465692Z",
+ "reportType": "Improved Project Report",
+ "header": {
+  "tenantId": "9466949b-ac30-4616-bf0c-14711bb5bf90",
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 7
+   },
+   {
+    "level": "Medium",
+    "value": 17
+   }
+  ]
+ },
+ "projectsOverview": {
+  "numberOfProjects": 1,
+  "projectsList": [
+   {
+    "projectName": "MAD-Goat-Project/mad-scoreboard-service",
+    "projectId": "d5d2d92a-f914-43fe-98dd-e82e31193d49",
+    "projectLink": "https://ast-master-components.dev.cxast.net/projects/d5d2d92a-f914-43fe-98dd-e82e31193d49/overview",
+    "projectApplications": [
+     "mad-goat"
+    ],
+    "projectTags": [
+     "madGoat",
+     "mad"
+    ],
+    "severityDistribution": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 7
+     },
+     {
+      "level": "Medium",
+      "value": 17
+     }
+    ],
+    "projectBranchesOverview": [
+     {
+      "branchName": "main",
+      "BranchURL": "https://ast-master-components.dev.cxast.net/projects/d5d2d92a-f914-43fe-98dd-e82e31193d49/overview?branch=main",
+      "severityDistribution": [
+       {
+        "level": "Critical",
+        "value": 0
+       },
+       {
+        "level": "High",
+        "value": 7
+       },
+       {
+        "level": "Medium",
+        "value": 17
+       }
+      ],
+      "oldestVulnerability": {
+       "oldestVulnerability": "Container Capabilities Unrestricted",
+       "oldestVulnerabilityScanner": "IaC",
+       "oldestVulnerabilityAge": 145
+      },
+      "lastScan": {
+       "lastScanDate": "2025-05-08T13:10:02.26Z",
+       "lastScanId": "4fd46165-c2db-4b57-8317-f13f189aa2c9",
+       "lastScanType": "Full",
+       "scanners": [
+        "SAST",
+        "IaC",
+        "N/A",
+        "CON",
+        "SCA",
+        "N/A"
+       ],
+       "loc": 5620,
+       "sourceOrigin": "github",
+       "tags": [
+        ""
+       ],
+       "preset": "ASA Premium"
+      },
+      "policies": null
+     }
+    ]
+   }
+  ]
+ },
+ "bySeverity": {
+  "totalResults": 24,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "level": "High",
+    "value": 7,
+    "percentage": 29.17,
+    "density": {
+     "value": 29.17
+    }
+   },
+   {
+    "level": "Medium",
+    "value": 17,
+    "percentage": 70.83,
+    "density": {
+     "value": 70.83
+    }
+   }
+  ]
+ },
+ "resolvedBySeverity": {
+  "totalResults": 0,
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0
+   },
+   {
+    "level": "High",
+    "value": 0,
+    "percentage": 0
+   },
+   {
+    "level": "Medium",
+    "value": 0,
+    "percentage": 0
+   }
+  ]
+ },
+ "byState": {
+  "totalResults": 24,
+  "stateDistribution": [
+   {
+    "state": "To Verify",
+    "value": 24,
+    "percentage": 100,
+    "density": {
+     "value": 100
+    }
+   },
+   {
+    "state": "Confirmed",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Urgent",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   }
+  ]
+ },
+ "byStatus": {
+  "totalResults": 24,
+  "newResultsOverview": {
+   "numberOfResults": 0,
+   "percentage": 0
+  },
+  "recurrentResultsOverview": {
+   "numberOfResults": 24,
+   "percentage": 100
+  }
+ },
+ "byScanner": {
+  "totalResults": 24,
+  "scannersDistribution": [
+   {
+    "scannerName": "SAST",
+    "numberOfResults": 0,
+    "percentage": 0
+   },
+   {
+    "scannerName": "IaC",
+    "numberOfResults": 12,
+    "percentage": 50
+   },
+   {
+    "scannerName": "SCA",
+    "numberOfResults": 12,
+    "percentage": 50
+   }
+  ]
+ },
+ "languageOverview": [
+  {
+   "languageName": "Npm-path-to-regexp-0.1.7",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 2
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-body-parser-1.20.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-body-parser-1.20.2",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-inflight-1.0.6",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-express-4.18.2",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-cookie-0.5.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-@nestjs/common-10.0.3",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-send-0.18.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-serve-static-1.15.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-webpack-5.82.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Common",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Dockerfile",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "DockerCompose",
+   "totalResults": 10,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 10
+    }
+   ]
+  }
+ ],
+ "resultsOverview": [
+  {
+   "name": "Npm-path-to-regexp-0.1.7",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 2
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-body-parser-1.20.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-body-parser-1.20.2",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-inflight-1.0.6",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-express-4.18.2",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 2
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-cookie-0.5.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-@nestjs/common-10.0.3",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-send-0.18.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-serve-static-1.15.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-webpack-5.82.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Common",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "IaC Security",
+   "type": "Technology"
+  },
+  {
+   "name": "Dockerfile",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "IaC Security",
+   "type": "Technology"
+  },
+  {
+   "name": "DockerCompose",
+   "totalResults": 10,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 10
+    }
+   ],
+   "engine": "IaC Security",
+   "type": "Technology"
+  }
+ ],
+ "topTenVulnerableFiles": [],
+ "topTenVulnerabilityType": {
+  "vulnerabilitiesList": [
+   {
+    "vulnerabilityType": "CVE-2024-45590",
+    "total": 2,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 2
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2024-45296",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2024-52798",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Cxdca8e59f-8bfe",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Missing User Instruction",
+    "total": 1,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Passwords And Secrets - Generic Password",
+    "total": 1,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Container Capabilities Unrestricted",
+    "total": 2,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 2
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Container Traffic Not Bound To Host Interface",
+    "total": 2,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 2
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Healthcheck Not Set",
+    "total": 2,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 2
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Memory Not Limited",
+    "total": 2,
+    "scanner": "IaC",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 2
+     }
+    ]
+   }
+  ]
+ },
+ "topTenOldestVulnerabilities": [
+  {
+   "vulnerabilityType": "CVE-2024-45296",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2024-45590",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2024-52798",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "Cxdca8e59f-8bfe",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "Missing User Instruction",
+   "age": 145,
+   "level": "High",
+   "scanner": "IaC"
+  },
+  {
+   "vulnerabilityType": "Passwords And Secrets - Generic Password",
+   "age": 145,
+   "level": "High",
+   "scanner": "IaC"
+  },
+  {
+   "vulnerabilityType": "Container Capabilities Unrestricted",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "IaC"
+  },
+  {
+   "vulnerabilityType": "Container Traffic Not Bound To Host Interface",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "IaC"
+  },
+  {
+   "vulnerabilityType": "CVE-2024-29041",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2024-29409",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "SCA"
+  }
+ ]
+}

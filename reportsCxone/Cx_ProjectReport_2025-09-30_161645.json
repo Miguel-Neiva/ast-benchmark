@@ -1,0 +1,1075 @@
+{
+ "reportCreationDate": "2025-09-30T16:16:45.691359103Z",
+ "reportType": "Improved Project Report",
+ "header": {
+  "tenantId": "9466949b-ac30-4616-bf0c-14711bb5bf90",
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 37
+   },
+   {
+    "level": "Medium",
+    "value": 23
+   }
+  ]
+ },
+ "projectsOverview": {
+  "numberOfProjects": 1,
+  "projectsList": [
+   {
+    "projectName": "MAD-Goat-Project/mad-goat4shell-service",
+    "projectId": "d21eaeda-b815-4b47-9312-d794b49883f0",
+    "projectLink": "https://ast-master-components.dev.cxast.net/projects/d21eaeda-b815-4b47-9312-d794b49883f0/overview",
+    "projectApplications": [
+     "mad-goat"
+    ],
+    "projectTags": [
+     "mad",
+     "madGoat"
+    ],
+    "severityDistribution": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 37
+     },
+     {
+      "level": "Medium",
+      "value": 23
+     }
+    ],
+    "projectBranchesOverview": [
+     {
+      "branchName": "unsafe",
+      "BranchURL": "https://ast-master-components.dev.cxast.net/projects/d21eaeda-b815-4b47-9312-d794b49883f0/overview?branch=unsafe",
+      "severityDistribution": [
+       {
+        "level": "Critical",
+        "value": 0
+       },
+       {
+        "level": "High",
+        "value": 37
+       },
+       {
+        "level": "Medium",
+        "value": 23
+       }
+      ],
+      "oldestVulnerability": {
+       "oldestVulnerability": "CVE-2016-1000027",
+       "oldestVulnerabilityScanner": "SCA",
+       "oldestVulnerabilityAge": 145
+      },
+      "lastScan": {
+       "lastScanDate": "2025-05-08T13:10:46.281Z",
+       "lastScanId": "2ebe6e65-36fa-4a0c-8b51-6b5a14d7b7ca",
+       "lastScanType": "Full",
+       "scanners": [
+        "SAST",
+        "IaC",
+        "N/A",
+        "CON",
+        "SCA",
+        "N/A"
+       ],
+       "loc": 172,
+       "sourceOrigin": "github",
+       "tags": [
+        ""
+       ],
+       "preset": "ASA Premium"
+      },
+      "policies": null
+     }
+    ]
+   }
+  ]
+ },
+ "bySeverity": {
+  "totalResults": 60,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "level": "High",
+    "value": 37,
+    "percentage": 61.67,
+    "density": {
+     "value": 215.12
+    }
+   },
+   {
+    "level": "Medium",
+    "value": 23,
+    "percentage": 38.33,
+    "density": {
+     "value": 133.72
+    }
+   }
+  ]
+ },
+ "resolvedBySeverity": {
+  "totalResults": 0,
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0
+   },
+   {
+    "level": "High",
+    "value": 0,
+    "percentage": 0
+   },
+   {
+    "level": "Medium",
+    "value": 0,
+    "percentage": 0
+   }
+  ]
+ },
+ "byState": {
+  "totalResults": 60,
+  "stateDistribution": [
+   {
+    "state": "To Verify",
+    "value": 60,
+    "percentage": 100,
+    "density": {
+     "value": 348.84
+    }
+   },
+   {
+    "state": "Confirmed",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Urgent",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   }
+  ]
+ },
+ "byStatus": {
+  "totalResults": 60,
+  "newResultsOverview": {
+   "numberOfResults": 0,
+   "percentage": 0
+  },
+  "recurrentResultsOverview": {
+   "numberOfResults": 60,
+   "percentage": 100
+  }
+ },
+ "byScanner": {
+  "totalResults": 60,
+  "scannersDistribution": [
+   {
+    "scannerName": "SAST",
+    "numberOfResults": 0,
+    "percentage": 0
+   },
+   {
+    "scannerName": "IaC",
+    "numberOfResults": 1,
+    "percentage": 1.67
+   },
+   {
+    "scannerName": "SCA",
+    "numberOfResults": 59,
+    "percentage": 98.33
+   }
+  ]
+ },
+ "languageOverview": [
+  {
+   "languageName": "Maven-org.apache.tomcat.embed:tomcat-embed-core-9.0.53",
+   "totalResults": 17,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 13
+    },
+    {
+     "level": "Medium",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.springframework:spring-webmvc-5.3.10",
+   "totalResults": 6,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 5
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-com.fasterxml.jackson.core:jackson-databind-2.12.5",
+   "totalResults": 5,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 4
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.springframework:spring-web-5.3.10",
+   "totalResults": 5,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 4
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.yaml:snakeyaml-1.28",
+   "totalResults": 7,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 2
+    },
+    {
+     "level": "Medium",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.apache.logging.log4j:log4j-core-2.8.2",
+   "totalResults": 4,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 2
+    },
+    {
+     "level": "Medium",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.apache.tomcat.embed:tomcat-embed-websocket-9.0.53",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 2
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.springframework:spring-beans-5.3.10",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-net.minidev:json-smart-2.4.7",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.springframework.boot:spring-boot-autoconfigure-2.5.5",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.xmlunit:xmlunit-core-2.8.2",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.springframework:spring-expression-5.3.10",
+   "totalResults": 4,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.springframework:spring-core-5.3.10",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-com.jayway.jsonpath:json-path-2.5.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Maven-org.springframework:spring-context-5.3.10",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Dockerfile",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  }
+ ],
+ "resultsOverview": [
+  {
+   "name": "Maven-org.apache.tomcat.embed:tomcat-embed-core-9.0.53",
+   "totalResults": 17,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 13
+    },
+    {
+     "level": "Medium",
+     "value": 4
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.springframework:spring-webmvc-5.3.10",
+   "totalResults": 6,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 5
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-com.fasterxml.jackson.core:jackson-databind-2.12.5",
+   "totalResults": 5,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 4
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.springframework:spring-web-5.3.10",
+   "totalResults": 5,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 4
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.yaml:snakeyaml-1.28",
+   "totalResults": 7,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 2
+    },
+    {
+     "level": "Medium",
+     "value": 5
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.apache.logging.log4j:log4j-core-2.8.2",
+   "totalResults": 4,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 2
+    },
+    {
+     "level": "Medium",
+     "value": 2
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.apache.tomcat.embed:tomcat-embed-websocket-9.0.53",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 2
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.springframework:spring-beans-5.3.10",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-net.minidev:json-smart-2.4.7",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.springframework.boot:spring-boot-autoconfigure-2.5.5",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.xmlunit:xmlunit-core-2.8.2",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.springframework:spring-expression-5.3.10",
+   "totalResults": 4,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 4
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.springframework:spring-core-5.3.10",
+   "totalResults": 2,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 2
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-com.jayway.jsonpath:json-path-2.5.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Maven-org.springframework:spring-context-5.3.10",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Dockerfile",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "IaC Security",
+   "type": "Technology"
+  }
+ ],
+ "topTenVulnerableFiles": [],
+ "topTenVulnerabilityType": {
+  "vulnerabilitiesList": [
+   {
+    "vulnerabilityType": "CVE-2016-1000027",
+    "total": 2,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 2
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2022-22965",
+    "total": 2,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 2
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2024-23672",
+    "total": 2,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 2
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2020-36518",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2021-42340",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2021-44228",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2021-45046",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2021-46877",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2022-1471",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2022-23181",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   }
+  ]
+ },
+ "topTenOldestVulnerabilities": [
+  {
+   "vulnerabilityType": "CVE-2016-1000027",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2020-36518",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2021-42340",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2021-44228",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2021-45046",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2021-46877",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2022-1471",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2022-22965",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2022-23181",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2022-25857",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  }
+ ]
+}

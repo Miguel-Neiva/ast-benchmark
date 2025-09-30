@@ -1,0 +1,835 @@
+{
+ "reportCreationDate": "2025-09-30T16:15:30.639342563Z",
+ "reportType": "Improved Project Report",
+ "header": {
+  "tenantId": "9466949b-ac30-4616-bf0c-14711bb5bf90",
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 9
+   },
+   {
+    "level": "Medium",
+    "value": 2
+   }
+  ]
+ },
+ "projectsOverview": {
+  "numberOfProjects": 1,
+  "projectsList": [
+   {
+    "projectName": "MAD-Goat-Project/mad-name-generator",
+    "projectId": "215ac995-6d92-47ab-8fbf-cc2852ebcad9",
+    "projectLink": "https://ast-master-components.dev.cxast.net/projects/215ac995-6d92-47ab-8fbf-cc2852ebcad9/overview",
+    "projectApplications": [
+     "mad-goat"
+    ],
+    "projectTags": [
+     "madGoat",
+     "mad"
+    ],
+    "severityDistribution": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 9
+     },
+     {
+      "level": "Medium",
+      "value": 2
+     }
+    ],
+    "projectBranchesOverview": [
+     {
+      "branchName": "main",
+      "BranchURL": "https://ast-master-components.dev.cxast.net/projects/215ac995-6d92-47ab-8fbf-cc2852ebcad9/overview?branch=main",
+      "severityDistribution": [
+       {
+        "level": "Critical",
+        "value": 0
+       },
+       {
+        "level": "High",
+        "value": 9
+       },
+       {
+        "level": "Medium",
+        "value": 2
+       }
+      ],
+      "oldestVulnerability": {
+       "oldestVulnerability": "CVE-2022-25883",
+       "oldestVulnerabilityScanner": "SCA",
+       "oldestVulnerabilityAge": 145
+      },
+      "lastScan": {
+       "lastScanDate": "2025-05-08T13:10:53.639Z",
+       "lastScanId": "78c07e86-fcee-4ba4-a1ed-0c7be03404bc",
+       "lastScanType": "Full",
+       "scanners": [
+        "SAST",
+        "IaC",
+        "N/A",
+        "CON",
+        "SCA",
+        "N/A"
+       ],
+       "loc": 4011,
+       "sourceOrigin": "github",
+       "tags": [
+        ""
+       ],
+       "preset": "ASA Premium"
+      },
+      "policies": null
+     }
+    ]
+   }
+  ]
+ },
+ "bySeverity": {
+  "totalResults": 11,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "level": "High",
+    "value": 9,
+    "percentage": 81.82,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "level": "Medium",
+    "value": 2,
+    "percentage": 18.18,
+    "density": {
+     "value": 0
+    }
+   }
+  ]
+ },
+ "resolvedBySeverity": {
+  "totalResults": 0,
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0
+   },
+   {
+    "level": "High",
+    "value": 0,
+    "percentage": 0
+   },
+   {
+    "level": "Medium",
+    "value": 0,
+    "percentage": 0
+   }
+  ]
+ },
+ "byState": {
+  "totalResults": 11,
+  "stateDistribution": [
+   {
+    "state": "To Verify",
+    "value": 11,
+    "percentage": 100,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Confirmed",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Urgent",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   }
+  ]
+ },
+ "byStatus": {
+  "totalResults": 11,
+  "newResultsOverview": {
+   "numberOfResults": 0,
+   "percentage": 0
+  },
+  "recurrentResultsOverview": {
+   "numberOfResults": 11,
+   "percentage": 100
+  }
+ },
+ "byScanner": {
+  "totalResults": 11,
+  "scannersDistribution": [
+   {
+    "scannerName": "SAST",
+    "numberOfResults": 0,
+    "percentage": 0
+   },
+   {
+    "scannerName": "IaC",
+    "numberOfResults": 0,
+    "percentage": 0
+   },
+   {
+    "scannerName": "SCA",
+    "numberOfResults": 11,
+    "percentage": 100
+   }
+  ]
+ },
+ "languageOverview": [
+  {
+   "languageName": "Npm-@babel/traverse-7.21.4",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-braces-3.0.2",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-cross-spawn-7.0.3",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-inflight-1.0.6",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-semver-5.7.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-semver-6.3.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-semver-7.0.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-semver-7.5.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-word-wrap-1.2.3",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-@babel/helpers-7.21.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "languageName": "Npm-micromatch-4.0.5",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ]
+  }
+ ],
+ "resultsOverview": [
+  {
+   "name": "Npm-@babel/traverse-7.21.4",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-braces-3.0.2",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-cross-spawn-7.0.3",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-inflight-1.0.6",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-semver-5.7.1",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-semver-6.3.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-semver-7.0.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-semver-7.5.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-word-wrap-1.2.3",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-@babel/helpers-7.21.0",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  },
+  {
+   "name": "Npm-micromatch-4.0.5",
+   "totalResults": 1,
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 1
+    }
+   ],
+   "engine": "SCA",
+   "type": "Package"
+  }
+ ],
+ "topTenVulnerableFiles": [],
+ "topTenVulnerabilityType": {
+  "vulnerabilitiesList": [
+   {
+    "vulnerabilityType": "CVE-2022-25883",
+    "total": 4,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 4
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2023-26115",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2023-45133",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2024-21538",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2024-4068",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "Cxdca8e59f-8bfe",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 1
+     },
+     {
+      "level": "Medium",
+      "value": 0
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2024-4067",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "vulnerabilityType": "CVE-2025-27789",
+    "total": 1,
+    "scanner": "SCA",
+    "vulnerabilitySeverities": [
+     {
+      "level": "Critical",
+      "value": 0
+     },
+     {
+      "level": "High",
+      "value": 0
+     },
+     {
+      "level": "Medium",
+      "value": 1
+     }
+    ]
+   }
+  ]
+ },
+ "topTenOldestVulnerabilities": [
+  {
+   "vulnerabilityType": "CVE-2022-25883",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2023-26115",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2023-45133",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2024-21538",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2024-4068",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "Cxdca8e59f-8bfe",
+   "age": 145,
+   "level": "High",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2024-4067",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "SCA"
+  },
+  {
+   "vulnerabilityType": "CVE-2025-27789",
+   "age": 145,
+   "level": "Medium",
+   "scanner": "SCA"
+  }
+ ]
+}

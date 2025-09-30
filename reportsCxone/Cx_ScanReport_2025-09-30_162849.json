@@ -1,0 +1,602 @@
+{
+ "reportCreationDate": "2025-09-30T16:28:49.83616254Z",
+ "reportType": "Vulnerability Type",
+ "reportHeader": {
+  "projectName": "MAD-Goat-Project/mad-goat-docs",
+  "projectCreationDate": "2025-05-08T11:29:09.454805Z",
+  "tenantId": "9466949b-ac30-4616-bf0c-14711bb5bf90",
+  "scanDate": "2025-05-08T13:10:22.647584Z",
+  "severityDistribution": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 7
+   },
+   {
+    "level": "Medium",
+    "value": 18
+   }
+  ],
+  "scannedBranchName": "main",
+  "scanners": [
+   "SAST",
+   "IaC Security",
+   "Container Security",
+   "SCA",
+   "SCS"
+  ],
+  "mainBranch": "N/A"
+ },
+ "reportFilters": {
+  "filters": [
+   {
+    "filterName": "Severity",
+    "included": [
+     "Critical",
+     "High",
+     "Medium"
+    ],
+    "excluded": [
+     "Low",
+     "Information"
+    ]
+   },
+   {
+    "filterName": "Result State",
+    "included": [
+     "To Verify",
+     "Confirmed",
+     "Urgent"
+    ],
+    "excluded": [
+     "Not Exploitable",
+     "Proposed Not Exploitable",
+     "renatotest",
+     "sca-custom-state-test",
+     "demo1",
+     "MyTest",
+     "MyTest2",
+     "MyTest4",
+     "MyTest5",
+     "1111",
+     "custom-state-7498171209555258686",
+     "test-iryna2",
+     "test-iryna3",
+     "custom-state-4980719722099858865",
+     "custom-state-2137318357268602066",
+     "custom-state-739519666182661190",
+     "aaaaa",
+     "state2808",
+     "custom-state-7916991054178852843",
+     "test-iryna4",
+     "Custom State Feedback Test",
+     "Custom State Feedback Test0lz4",
+     "Custom State Feedback TestdUAA",
+     "Custom State Feedback Testzp9V",
+     "Custom State Feedback TestKA9e",
+     "Custom State Feedback Testcn6g",
+     "Custom State Feedback TestgUNZ",
+     "test_state",
+     "custom-state-8467768294313851466",
+     "system-tests",
+     "79291c6f-6d01-4a26-a09c-689139a9a43b",
+     "very customable state123123",
+     "CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_END",
+     "CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_STATE_NAME_TEST_ABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789_abcdefghijklmnopqrstuvwxyz_CUSTOM_E  ",
+     "demo2",
+     "demo3",
+     "test-cutom-state",
+     "michaltest",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvk",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvl",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvz",
+     "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlMXd2YTJWRmlKakZYLWlUaVpQRmJfc0U0SEhaZ3RTV2hkZE5NR0sxNzRzIn0eyJleHAiOjE3NTY4MjM0NzMsImlhdCI6MTc1NjgyMjU3MywiYXV0aF90aW1lIjoxNzU2ODIxNDY5LCJqdGkiOiJvx",
+     "eyJhbGciOiJSUzI1NiIs chghfgkmnbnmghxfgfxgjbhbnmhcgf",
+     "Custom State Feedback TestosNJ",
+     "Custom State Feedback TestVUvf",
+     "Custom State Feedback TestnMps",
+     "Custom State Feedback Test28Pk",
+     "Custom State Feedback TestnBXc",
+     "Custom State Feedback TestZOm9",
+     "Custom State Feedback TestlP9s",
+     "Custom State Feedback TestNJFP",
+     "Custom State Feedback TestupnA",
+     "Custom State Feedback TestZsjq",
+     "Custom State Feedback TestXj02",
+     "Custom State Feedback TestVWcY",
+     "Custom State Feedback TestfnLu",
+     "Custom State Feedback Test7eWc",
+     "cache test",
+     "cache2 test",
+     "Custom State Feedback TestNssb",
+     "Custom State Feedback TestxAT5",
+     "Custom State Feedback Test9ym2",
+     "Custom State Feedback Test1DBT",
+     "Custom State Feedback TestiRWO",
+     "Custom State Feedback TestFIdG",
+     "Custom State Feedback TestgkLG",
+     "Custom State Feedback TestKD80",
+     "Custom State Feedback TestUvfN",
+     "Custom State Feedback TestZ7ZE",
+     "Custom State Feedback TestPn6K",
+     "Custom State Feedback TestJVeH",
+     "Custom State Feedback TestigpJ",
+     "Custom State Feedback Test50Nt",
+     "Custom State Feedback TestxdA4",
+     "Custom State Feedback Test1Pdr",
+     "Custom State Feedback TestfuZy",
+     "Custom State Feedback TestZMRE",
+     "Custom State Feedback TestCgGZ",
+     "Custom State Feedback Testnuv4",
+     "Custom State Feedback TestnLfX",
+     "Custom State Feedback TestPT17",
+     "Custom State Feedback TestUHSk",
+     "test-iryna5",
+     "TestCustomState_1757853563",
+     "CustomState_101",
+     "CustomState_102",
+     "TestCustomState_1757834998",
+     "TestCustomState_1757838233",
+     "TestCustomState_1757847808",
+     "TestCustomState_1757851477",
+     "TestCustomState_1757853375",
+     "MyTest3",
+     "MyTest6",
+     "giant_state_aslkjebnvalskrejbvnadsrlkjbnaserlkbjnasRBLKAJSRNBKLASREJENBASPLKERKJBNASDRB",
+     " not_trimmed_state ",
+     "LowerCaseState",
+     "custom-state-4773700542537814097"
+    ]
+   },
+   {
+    "filterName": "Status",
+    "included": [
+     "New",
+     "Recurrent"
+    ],
+    "excluded": []
+   },
+   {
+    "filterName": "Scanners",
+    "included": [
+     "SAST",
+     "IaC Security",
+     "Container Security",
+     "SCA",
+     "SCS"
+    ],
+    "excluded": []
+   }
+  ],
+  "resultsLimit": "10000"
+ },
+ "scanInformation": {
+  "scanId": "281c2dd8-9ac3-4ade-9684-031be902bf12",
+  "scanInitiator": "org_admin",
+  "scanDuration": 1818979539000,
+  "preset": "N/A",
+  "totalScannedLoc": 941,
+  "scannedLoc": 0,
+  "iacScannedLoc": 941,
+  "totalScannedFiles": 35,
+  "scannedFiles": 0,
+  "iacScannedFiles": 35,
+  "viewerLink": "https://ast-master-components.dev.cxast.net/sast-results/f6702c94-3deb-4bb4-90c3-9a2959a5a25e/281c2dd8-9ac3-4ade-9684-031be902bf12",
+  "sourceOrigin": "github",
+  "scanType": "N/A",
+  "branch": "main",
+  "totalDensity": 6.38,
+  "density": 0,
+  "iacDensity": 6.38,
+  "groups": null,
+  "scanners": [
+   "SAST",
+   "IaC Security",
+   "Container Security",
+   "SCA",
+   "SCS"
+  ],
+  "scannerStatus": [
+   {
+    "name": "SCS",
+    "status": "Completed"
+   },
+   {
+    "name": "SAST",
+    "status": "Completed"
+   },
+   {
+    "name": "SCA",
+    "status": "Completed"
+   },
+   {
+    "name": "Container Security",
+    "status": "Failed"
+   },
+   {
+    "name": "IaC Security",
+    "status": "Completed"
+   }
+  ]
+ },
+ "projectAndScanTags": {
+  "scanTags": null,
+  "projectTags": {
+   "mad": "",
+   "madGoat": ""
+  }
+ },
+ "densityGrade": {
+  "totalResults": 6,
+  "loc": 941,
+  "density": 6.38
+ },
+ "scannerOverview": {
+  "totalResults": 25,
+  "sastResults": {
+   "engine": "SAST",
+   "value": 0,
+   "percentage": 0
+  },
+  "iacResults": {
+   "engine": "IaC Security",
+   "value": 6,
+   "percentage": 24
+  },
+  "scaResults": {
+   "engine": "SCA",
+   "value": 0,
+   "percentage": 0
+  },
+  "containersResults": {
+   "engine": "Container Security",
+   "value": 0,
+   "percentage": 0
+  },
+  "scsResults": {
+   "engine": "SCS",
+   "value": 19,
+   "percentage": 76
+  }
+ },
+ "statusOverview": {
+  "totalResults": 25,
+  "newResultsOverview": {
+   "numberOfResults": 19,
+   "percentage": 76
+  },
+  "recurrentResultsOverview": {
+   "numberOfResults": 6,
+   "percentage": 24
+  }
+ },
+ "stateOverview": {
+  "totalResults": 25,
+  "stateDistribution": [
+   {
+    "state": "To Verify",
+    "numberOfResults": 25,
+    "percentage": 100,
+    "density": {
+     "value": 6.38
+    }
+   },
+   {
+    "state": "Confirmed",
+    "numberOfResults": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "state": "Urgent",
+    "numberOfResults": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   }
+  ]
+ },
+ "languageOverview": [],
+ "technologyOverview": [
+  {
+   "technologyName": "DockerCompose",
+   "totalResults": 5,
+   "density": {
+    "value": 5.31
+   },
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "technologyName": "Dockerfile",
+   "totalResults": 1,
+   "density": {
+    "value": 1.06
+   },
+   "severityBreakdown": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 1
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  }
+ ],
+ "packageOverview": [],
+ "severityOverview": {
+  "totalResults": 25,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0,
+    "percentage": 0,
+    "density": {
+     "value": 0
+    }
+   },
+   {
+    "level": "High",
+    "value": 7,
+    "percentage": 28,
+    "density": {
+     "value": 7.44
+    }
+   },
+   {
+    "level": "Medium",
+    "value": 18,
+    "percentage": 72,
+    "density": {
+     "value": 19.13
+    }
+   }
+  ]
+ },
+ "containersOverview": null,
+ "vulnerabilitiesTable": {
+  "totals": {
+   "detectedFiles": 0,
+   "resultsDistribution": [
+    {
+     "level": "Critical",
+     "value": 0
+    },
+    {
+     "level": "High",
+     "value": 0
+    },
+    {
+     "level": "Medium",
+     "value": 0
+    }
+   ]
+  },
+  "vulnerabilityTypes": []
+ },
+ "topTenVulnerabilities": {
+  "vulnerableFiles": 0,
+  "totalVulnerabilities": 0,
+  "vulnerabilitiesList": []
+ },
+ "topTenVulnerableFiles": {
+  "vulnerableFiles": 0,
+  "totalFiles": 0,
+  "vulnerableFilesList": []
+ },
+ "topFiveOldestBySeverity": [],
+ "scanResults": {
+  "totalResults": 0,
+  "severitiesBreakdown": [],
+  "resultsList": []
+ },
+ "iacScanResults": {
+  "totalResults": 6,
+  "severitiesBreakdown": [
+   {
+    "level": "Critical",
+    "value": 0
+   },
+   {
+    "level": "High",
+    "value": 1
+   },
+   {
+    "level": "Medium",
+    "value": 5
+   }
+  ],
+  "technology": [
+   {
+    "name": "Dockerfile",
+    "totalResults": 1,
+    "queries": [
+     {
+      "queryName": "Missing User Instruction",
+      "totalResults": 1,
+      "description": "A user should be specified in the dockerfile, otherwise the image will run as root",
+      "category": "Build Process",
+      "resultsList": [
+       {
+        "severity": "High",
+        "resultViewerLink": "https://ast-master-components.dev.cxast.net/results/281c2dd8-9ac3-4ade-9684-031be902bf12/f6702c94-3deb-4bb4-90c3-9a2959a5a25e/kics?result-id=UzNeEb6av9KaQjRz%2BFoGLd32XBo%3D",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstScanID": "513fa71f-2edf-4113-aaa8-7c59050e0b40",
+        "firstDetectionDate": "2025-05-08T11:29:42Z",
+        "lastDetectionDate": "2025-05-08T13:11:42Z",
+        "fileName": "/Dockerfile",
+        "issueType": "MissingAttribute",
+        "actualValue": "The 'Dockerfile' does not contain any 'USER' instruction",
+        "expectedValue": "The 'Dockerfile' should contain the 'USER' instruction"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "DockerCompose",
+    "totalResults": 5,
+    "queries": [
+     {
+      "queryName": "Security Opt Not Set",
+      "totalResults": 1,
+      "description": "Attribute 'security_opt' should be defined.",
+      "category": "Resource Management",
+      "resultsList": [
+       {
+        "severity": "Medium",
+        "resultViewerLink": "https://ast-master-components.dev.cxast.net/results/281c2dd8-9ac3-4ade-9684-031be902bf12/f6702c94-3deb-4bb4-90c3-9a2959a5a25e/kics?result-id=madx8Ec86dwZZJaGDLxTAtRyGw8%3D",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstScanID": "513fa71f-2edf-4113-aaa8-7c59050e0b40",
+        "firstDetectionDate": "2025-05-08T11:29:42Z",
+        "lastDetectionDate": "2025-05-08T13:11:42Z",
+        "fileName": "/docker-compose.yml",
+        "issueType": "MissingAttribute",
+        "actualValue": "Docker compose file does not have 'security_opt' attribute",
+        "expectedValue": "Docker compose file to have 'security_opt' attribute"
+       }
+      ]
+     },
+     {
+      "queryName": "Privileged Ports Mapped In Container",
+      "totalResults": 1,
+      "description": "Privileged ports (1 to 1023) should not be mapped. Also you should drop net_bind_service linux capability from the container unless you absolutely need to use priviledged ports.",
+      "category": "Networking and Firewall",
+      "resultsList": [
+       {
+        "severity": "Medium",
+        "resultViewerLink": "https://ast-master-components.dev.cxast.net/results/281c2dd8-9ac3-4ade-9684-031be902bf12/f6702c94-3deb-4bb4-90c3-9a2959a5a25e/kics?result-id=JDpOhTI4%2BxX6cObhYnJ%2B9gSM8ts%3D",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstScanID": "513fa71f-2edf-4113-aaa8-7c59050e0b40",
+        "firstDetectionDate": "2025-05-08T11:29:42Z",
+        "lastDetectionDate": "2025-05-08T13:11:42Z",
+        "fileName": "/docker-compose.yml",
+        "issueType": "IncorrectValue",
+        "actualValue": "Docker compose file has 'ports' attribute set to privileged ports (\u003c1024).",
+        "expectedValue": "Docker compose file to have 'ports' attribute not set to privileged ports (\u003c1024)."
+       }
+      ]
+     },
+     {
+      "queryName": "Healthcheck Not Set",
+      "totalResults": 1,
+      "description": "Check containers periodically to see if they are running properly.",
+      "category": "Availability",
+      "resultsList": [
+       {
+        "severity": "Medium",
+        "resultViewerLink": "https://ast-master-components.dev.cxast.net/results/281c2dd8-9ac3-4ade-9684-031be902bf12/f6702c94-3deb-4bb4-90c3-9a2959a5a25e/kics?result-id=5VS7anOB9MUQnwkA%2BiRnIs%2B9gcg%3D",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstScanID": "513fa71f-2edf-4113-aaa8-7c59050e0b40",
+        "firstDetectionDate": "2025-05-08T11:29:42Z",
+        "lastDetectionDate": "2025-05-08T13:11:42Z",
+        "fileName": "/docker-compose.yml",
+        "issueType": "MissingAttribute",
+        "actualValue": "Healthcheck is not defined.",
+        "expectedValue": "Healthcheck should be defined."
+       }
+      ]
+     },
+     {
+      "queryName": "Container Traffic Not Bound To Host Interface",
+      "totalResults": 1,
+      "description": "Incoming container traffic should be bound to a specific host interface",
+      "category": "Networking and Firewall",
+      "resultsList": [
+       {
+        "severity": "Medium",
+        "resultViewerLink": "https://ast-master-components.dev.cxast.net/results/281c2dd8-9ac3-4ade-9684-031be902bf12/f6702c94-3deb-4bb4-90c3-9a2959a5a25e/kics?result-id=FW5hCn2zYpnqET73fYBd6dJno%2FM%3D",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstScanID": "513fa71f-2edf-4113-aaa8-7c59050e0b40",
+        "firstDetectionDate": "2025-05-08T11:29:42Z",
+        "lastDetectionDate": "2025-05-08T13:11:42Z",
+        "fileName": "/docker-compose.yml",
+        "issueType": "IncorrectValue",
+        "actualValue": "Docker compose file doesn't have 'ports' attribute bound to a specific host interface",
+        "expectedValue": "Docker compose file to have 'ports' attribute bound to a specific host interface."
+       }
+      ]
+     },
+     {
+      "queryName": "Container Capabilities Unrestricted",
+      "totalResults": 1,
+      "description": "Some capabilities are not needed in certain (or any) containers. Make sure that you only add capabilities that your container needs. Drop unnecessary capabilities as well.",
+      "category": "Resource Management",
+      "resultsList": [
+       {
+        "severity": "Medium",
+        "resultViewerLink": "https://ast-master-components.dev.cxast.net/results/281c2dd8-9ac3-4ade-9684-031be902bf12/f6702c94-3deb-4bb4-90c3-9a2959a5a25e/kics?result-id=Pvw0%2FfXz2%2B6eUwf9tvswcwRl3EA%3D",
+        "status": "Recurrent",
+        "state": "To Verify",
+        "firstScanID": "513fa71f-2edf-4113-aaa8-7c59050e0b40",
+        "firstDetectionDate": "2025-05-08T11:29:42Z",
+        "lastDetectionDate": "2025-05-08T13:11:42Z",
+        "fileName": "/docker-compose.yml",
+        "issueType": "MissingAttribute",
+        "actualValue": "Docker compose file doesn't have 'cap_drop' attribute. Make sure your container only has necessary capabilities.",
+        "expectedValue": "Docker compose file to have 'cap_drop' attribute"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "scaScanResults": {
+  "totalResults": 0,
+  "severitiesBreakdown": [],
+  "packages": []
+ },
+ "containerScanResults": null,
+ "categories": [],
+ "resolvedVulnerabilities": {
+  "resolvedTotal": 0,
+  "resolvedVulnerabilities": []
+ },
+ "vulnerabilityDetails": [],
+ "scsSummaryResults": [
+  {
+   "totalResults": 19,
+   "severitiesBreakdown": [
+    {
+     "level": "High",
+     "value": 6
+    },
+    {
+     "level": "Medium",
+     "value": 13
+    }
+   ],
+   "engineName": "Scorecard"
+  }
+ ]
+}
