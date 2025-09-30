@@ -1,0 +1,33 @@
+[
+  {
+    "projectName": "mad-Keycloak-service",
+    "results": [
+      {
+        "engineType": "IAC",
+        "details": [
+          {
+            "ResultId": "7780d415a28245e78acc189de9c77346",
+            "ResourceType": "Filename",
+            "Resource": "keycloak/Dockerfile",
+            "VulnerabilityCategory": "RULE",
+            "VulnerabilityValue": "docker:S6596"
+          },
+          {
+            "ResultId": "984cbbf3f04ae14b7821e74a137dd960",
+            "ResourceType": "Filename",
+            "Resource": "keycloak/Dockerfile",
+            "VulnerabilityCategory": "RULE",
+            "VulnerabilityValue": "docker:S6476"
+          },
+          {
+            "ResultId": "59d0248e69cc033dba6f1ab111a02ca6",
+            "ResourceType": "Filename",
+            "Resource": "keycloak/Dockerfile",
+            "VulnerabilityCategory": "RULE",
+            "VulnerabilityValue": "docker:S7020"
+          }
+        ]
+      }
+    ]
+  }
+]

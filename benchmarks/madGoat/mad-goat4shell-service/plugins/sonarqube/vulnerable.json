@@ -1,0 +1,33 @@
+[
+  {
+    "projectName": "mad-goat4shell-service",
+    "results": [
+      {
+        "engineType": "SAST",
+        "details": [
+          {
+            "ResultId": "191f3e7e514cc1fc63e623c295fdf560",
+            "ResourceType": "FileName",
+            "Resource": "src/main/java/com/example/LogController.java",
+            "VulnerabilityCategory": "javasecurity:S5145",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "7e73126c7efd2281aa8576208bbf1617",
+            "ResourceType": "FileName",
+            "Resource": "src/main/java/com/example/LogService.java",
+            "VulnerabilityCategory": "javasecurity:S2077",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "fde57dd12e5cecba67a84825ae34a59d",
+            "ResourceType": "FileName",
+            "Resource": "src/main/java/com/example/ErrorHandler.java",
+            "VulnerabilityCategory": "javasecurity:S106",
+            "VulnerabilityValue": "CWE-710"
+          }
+        ]
+      }
+    ]
+  }
+]

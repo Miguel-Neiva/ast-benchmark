@@ -1,0 +1,42 @@
+{
+  "mad-deployment-service": {
+    "engines": {
+      "IAC": {
+        "detected": 0,
+        "total": 1,
+        "tpPercentage": 0
+      },
+      "SCA": {
+        "detected": 0,
+        "total": 7,
+        "tpPercentage": 0
+      }
+    },
+    "overall": {
+      "detected": 0,
+      "total": 8,
+      "tpPercentage": 0
+    },
+    "plugin": "sonarqube"
+  },
+  "mad-lessons-service": {
+    "engines": {
+      "IAC": {
+        "detected": 0,
+        "total": 13,
+        "tpPercentage": 0
+      },
+      "SCA": {
+        "detected": 0,
+        "total": 36,
+        "tpPercentage": 0
+      }
+    },
+    "overall": {
+      "detected": 0,
+      "total": 49,
+      "tpPercentage": 0
+    },
+    "plugin": "sonarqube"
+  }
+}

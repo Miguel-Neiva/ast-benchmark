@@ -1,0 +1,73 @@
+package cxone
+
+import (
+	"fmt"
+	"strings"
+
+	"github.com/cx-miguel-neiva/ast-benchmark/internal/handler"
+)
+
+func parseSca(scaData interface{}) (handler.EngineResult, error) {
+	data, ok := scaData.(map[string]interface{})
+	if !ok {
+		return handler.EngineResult{}, fmt.Errorf("invalid sca struct")
+	}
+
+	packages, ok := data["packages"].([]interface{})
+	if !ok {
+		return handler.EngineResult{}, fmt.Errorf("invalid packages")
+	}
+
+	var details []handler.VulnerabilityDetail
+	for _, pkgRaw := range packages {
+		pkg, _ := pkgRaw.(map[string]interface{})
+
+		packageName := handler.ToStr(pkg["packageName"])
+		categories, _ := pkg["packageCategory"].([]interface{})
+
+		for _, catRaw := range categories {
+			category, _ := catRaw.(map[string]interface{})
+			categoryName := handler.ToStr(category["categoryName"])
+
+			vulnCategory := ""
+			if len(categoryName) >= 3 {
+				vulnCategory = categoryName[:3]
+			}
+
+			vulnValue := ""
+			if parts := strings.Split(categoryName, "-"); len(parts) == 2 {
+				vulnValue = parts[1]
+			}
+
+			// Apply CWE mapping for standardization
+			if vulnCategory == "CWE" && vulnValue != "" {
+				originalCWE := fmt.Sprintf("CWE-%s", vulnValue)
+				standardCWE := standardizeCWE(originalCWE)
+				if standardCWE != originalCWE {
+					// If mapping occurred, update the vulnValue
+					if stdParts := strings.Split(standardCWE, "-"); len(stdParts) == 2 {
+						vulnValue = stdParts[1]
+					}
+				}
+			}
+
+			// Use only the CWE value as unique identifier
+			resourceType := "Package"
+			resource := packageName
+			vulnCategoryFinal := "CWE"
+			vulnValueFinal := vulnValue
+
+			resultID := handler.GenerateResultID(resourceType, resource, vulnCategoryFinal, vulnValueFinal)
+
+			details = append(details, handler.VulnerabilityDetail{
+				ResultID:              resultID,
+				ResourceType:          resourceType,
+				Resource:              resource,
+				VulnerabilityCategory: vulnCategoryFinal,
+				VulnerabilityValue:    vulnValueFinal,
+			})
+		}
+	}
+
+	return handler.EngineResult{EngineType: "SCA", Details: details}, nil
+}

@@ -1,0 +1,325 @@
+[
+  {
+    "projectName": "mad-deployment-service",
+    "results": [
+      {
+        "engineType": "IAC",
+        "details": [
+          {
+            "ResultId": "f1edd25b49ab594bfed65625dcdea486",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "3fb20fa21162756ccaa0f15efd501737",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6873",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6873"
+          },
+          {
+            "ResultId": "d3243dd7c7c279ee8036ce1e3c7c6beb",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6892",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6892"
+          },
+          {
+            "ResultId": "0c5e62e149fad6986536bd545999df88",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "d9b91b7a30b2f855cf193df6acb90f52",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6864",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - kubernetes:S6864"
+          },
+          {
+            "ResultId": "3b2d115013ba8b34fe8f7f33753dde3c",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "afa974ad76f62217149bf02db01534f1",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+            "VulnerabilityCategory": "kubernetes:S6892",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6892"
+          },
+          {
+            "ResultId": "53a9c7dc247a117cdafd2730a78bf13d",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "7e30db6a2651dce2216378b4ec4cf71d",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+            "VulnerabilityCategory": "kubernetes:S6864",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - kubernetes:S6864"
+          },
+          {
+            "ResultId": "23f656d32b32695e1cb2ec4ba735eb2f",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+            "VulnerabilityCategory": "kubernetes:S6873",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6873"
+          },
+          {
+            "ResultId": "4045a4109f1e7feca2083765204db4b4",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+            "VulnerabilityCategory": "kubernetes:S6596",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - kubernetes:S6596"
+          },
+          {
+            "ResultId": "f00b7a5c1309881bd4cb92c496c7ea2a",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "0834e7a193052123ba80da93dc1c8c0c",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6864",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - kubernetes:S6864"
+          },
+          {
+            "ResultId": "80594b937866867f6d191eeeea0a565a",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6873",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6873"
+          },
+          {
+            "ResultId": "38714e983dd45bd02f6c3d647c773538",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6892",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6892"
+          },
+          {
+            "ResultId": "ae12e41bda5509857c6216fa80c27cb3",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "18a65cf5983aace69c1039e4ba7de21c",
+            "ResourceType": "Filename",
+            "Resource": "compose/object-storage-deployment/lessons-bucket/variables.tf",
+            "VulnerabilityCategory": "terraform:S1135",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - terraform:S1135"
+          },
+          {
+            "ResultId": "29c08d596ac8b0c3fe20c74331102a26",
+            "ResourceType": "Filename",
+            "Resource": "k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "0fd8d2894ad6105ce848811f497460cd",
+            "ResourceType": "Filename",
+            "Resource": "k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "3605adbd2eb500acc752fddd4c706053",
+            "ResourceType": "Filename",
+            "Resource": "k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6870",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6870"
+          },
+          {
+            "ResultId": "f245f9b75b87a86c6f97d62aa3e132f6",
+            "ResourceType": "Filename",
+            "Resource": "k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "13a7afc327989da94901dfa8ffac46d2",
+            "ResourceType": "Filename",
+            "Resource": "k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6870",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6870"
+          },
+          {
+            "ResultId": "9845a7b4768247ff76d6747190954064",
+            "ResourceType": "Filename",
+            "Resource": "k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "368e551f0392647268563d32f9c08151",
+            "ResourceType": "Filename",
+            "Resource": "k8s/envs/env-scoreboard-configmap.yaml",
+            "VulnerabilityCategory": "secrets:S6694",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - secrets:S6694"
+          },
+          {
+            "ResultId": "fe15fda1193bb1e686ac668831ae373e",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "d9aa045ac2e16db2cae3d9918622bdae",
+            "ResourceType": "Filename",
+            "Resource": "k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "d2a2d5e54f736fdf6726fb5d83a31f63",
+            "ResourceType": "Filename",
+            "Resource": "k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "752f303e1a44bbd66ee88c510802a093",
+            "ResourceType": "Filename",
+            "Resource": "k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6870",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6870"
+          },
+          {
+            "ResultId": "4e2239629cdc78e2176436db19962483",
+            "ResourceType": "Filename",
+            "Resource": "k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "026783d74b0d8eb44699beab238baf86",
+            "ResourceType": "Filename",
+            "Resource": "k8s/mad/mad4shell-service-safe-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "f57e1f7e50d58a5697a80909c4d1d1ac",
+            "ResourceType": "Filename",
+            "Resource": "k8s/mad/mad4shell-service-safe-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "09cb41ac7326efc8f3bc4cfd62e7f5f0",
+            "ResourceType": "Filename",
+            "Resource": "k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "a992571871b6fde1cd1e1066b1cc221f",
+            "ResourceType": "Filename",
+            "Resource": "k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "90d3e23185c070561ada511eed56cbee",
+            "ResourceType": "Filename",
+            "Resource": "k8s/services/jekyll/jekyll-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "3e65a4a46f3c562d193b9ef31bf70f9e",
+            "ResourceType": "Filename",
+            "Resource": "k8s/services/jekyll/jekyll-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "32c89c1def0943fce21251dee51061ce",
+            "ResourceType": "Filename",
+            "Resource": "k8s/services/lesson/lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "43a36e56e121bb92d9e4427c06d5b59b",
+            "ResourceType": "Filename",
+            "Resource": "k8s/services/lesson/lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "e0a15b59d84860bd88cc8aa2b1d8c4fc",
+            "ResourceType": "Filename",
+            "Resource": "k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "098e4397eb22659392935e02c2405031",
+            "ResourceType": "Filename",
+            "Resource": "k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "297691b4067d4c7f0998243f4b1f7ce0",
+            "ResourceType": "Filename",
+            "Resource": "k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "ccfd7794761c595e96a838270092e3cc",
+            "ResourceType": "Filename",
+            "Resource": "k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          },
+          {
+            "ResultId": "936f0c5fa063e9c5bf905b5c4ddf0514",
+            "ResourceType": "Filename",
+            "Resource": "k8s/services/webapp/webapp-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6865",
+            "VulnerabilityValue": "CWE-250: Execution with Unnecessary Privileges - kubernetes:S6865"
+          },
+          {
+            "ResultId": "473a1674a8407fb216118695882b8835",
+            "ResourceType": "Filename",
+            "Resource": "k8s/services/webapp/webapp-deployment.yaml",
+            "VulnerabilityCategory": "kubernetes:S6897",
+            "VulnerabilityValue": "CWE-400: Uncontrolled Resource Consumption - kubernetes:S6897"
+          }
+        ]
+      },
+      {
+        "engineType": "SAST",
+        "details": [
+          {
+            "ResultId": "765b8b668cc295cf9fb4b9465609aac6",
+            "ResourceType": "FileName",
+            "Resource": "compose/object-storage-deployment/lessons-bucket/exploit/index.js",
+            "VulnerabilityCategory": "javascript:S3504",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - javascript:S3504"
+          }
+        ]
+      }
+    ]
+  }
+]

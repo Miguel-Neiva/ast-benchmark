@@ -1,0 +1,179 @@
+{
+    "total": 3,
+    "p": 1,
+    "ps": 500,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "total": 3
+    },
+    "effortTotal": 180,
+    "issues": [
+        {
+            "key": "log4shell-001",
+            "rule": "javasecurity:S5145",
+            "severity": "CRITICAL",
+            "component": "mad-goat4shell-service:src/main/java/com/example/LogController.java",
+            "project": "mad-goat4shell-service",
+            "line": 15,
+            "hash": "a1b2c3d4e5f678901234567890abcdef",
+            "textRange": {
+                "startLine": 15,
+                "endLine": 15,
+                "startOffset": 8,
+                "endOffset": 25
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Log injection vulnerability: user input is logged without proper sanitization.",
+            "effort": "1h",
+            "debt": "1h",
+            "author": "developer@example.com",
+            "tags": ["security", "log-injection"],
+            "creationDate": "2025-09-19T10:00:00+0100",
+            "updateDate": "2025-09-19T10:00:00+0100",
+            "type": "VULNERABILITY",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "key": "log4shell-002",
+            "rule": "javasecurity:S2077",
+            "severity": "HIGH",
+            "component": "mad-goat4shell-service:src/main/java/com/example/LogService.java",
+            "project": "mad-goat4shell-service",
+            "line": 22,
+            "hash": "f9e8d7c6b5a49876543210987654321f",
+            "textRange": {
+                "startLine": 22,
+                "endLine": 22,
+                "startOffset": 12,
+                "endOffset": 30
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Potential log forging: user-controlled data in log entries.",
+            "effort": "45min",
+            "debt": "45min",
+            "author": "developer@example.com",
+            "tags": ["security", "log-forging"],
+            "creationDate": "2025-09-19T10:15:00+0100",
+            "updateDate": "2025-09-19T10:15:00+0100",
+            "type": "VULNERABILITY",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "COMPLETE",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "log4shell-003",
+            "rule": "javasecurity:S106",
+            "severity": "MEDIUM",
+            "component": "mad-goat4shell-service:src/main/java/com/example/ErrorHandler.java",
+            "project": "mad-goat4shell-service",
+            "line": 8,
+            "hash": "1a2b3c4d5e6f78901234567890abcdef",
+            "textRange": {
+                "startLine": 8,
+                "endLine": 8,
+                "startOffset": 4,
+                "endOffset": 18
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "System.out.println should be replaced by a logger.",
+            "effort": "15min",
+            "debt": "15min",
+            "author": "developer@example.com",
+            "tags": ["logging"],
+            "creationDate": "2025-09-19T10:30:00+0100",
+            "updateDate": "2025-09-19T10:30:00+0100",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": true,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "key": "mad-goat4shell-service:src/main/java/com/example/LogController.java",
+            "name": "LogController.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/com/example/LogController.java",
+            "language": "java",
+            "measures": []
+        },
+        {
+            "key": "mad-goat4shell-service:src/main/java/com/example/LogService.java",
+            "name": "LogService.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/com/example/LogService.java",
+            "language": "java",
+            "measures": []
+        },
+        {
+            "key": "mad-goat4shell-service:src/main/java/com/example/ErrorHandler.java",
+            "name": "ErrorHandler.java",
+            "qualifier": "FIL",
+            "path": "src/main/java/com/example/ErrorHandler.java",
+            "language": "java",
+            "measures": []
+        },
+        {
+            "key": "mad-goat4shell-service",
+            "name": "mad-goat4shell-service",
+            "qualifier": "TRK",
+            "measures": []
+        }
+    ],
+    "rules": [
+        {
+            "key": "javasecurity:S5145",
+            "name": "Log entries should be sanitized",
+            "status": "READY",
+            "lang": "java",
+            "langName": "Java"
+        },
+        {
+            "key": "javasecurity:S2077",
+            "name": "Log entries should not be forged",
+            "status": "READY",
+            "lang": "java",
+            "langName": "Java"
+        },
+        {
+            "key": "javasecurity:S106",
+            "name": "Standard outputs should not be used directly to log anything",
+            "status": "READY",
+            "lang": "java",
+            "langName": "Java"
+        }
+    ]
+}

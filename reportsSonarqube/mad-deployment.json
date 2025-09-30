@@ -1,0 +1,2580 @@
+{
+    "total":  46,
+    "p":  1,
+    "ps":  500,
+    "paging":  {
+                   "pageIndex":  1,
+                   "pageSize":  500,
+                   "total":  46
+               },
+    "effortTotal":  1020,
+    "issues":  [
+                   {
+                       "key":  "338d5416-2253-4df6-9527-f13b0b08d5a5",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  24,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  24,
+                                         "endLine":  24,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "1f4d2b17-7a16-440e-a40b-6c724882e9d7",
+                       "rule":  "kubernetes:S6873",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  25,
+                       "hash":  "06eb488549af56386319718c3de42ed4",
+                       "textRange":  {
+                                         "startLine":  25,
+                                         "endLine":  25,
+                                         "startOffset":  20,
+                                         "endOffset":  86
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a memory request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "74692770-6004-409e-bbcb-e5b0ae3de03d",
+                       "rule":  "kubernetes:S6892",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  25,
+                       "hash":  "06eb488549af56386319718c3de42ed4",
+                       "textRange":  {
+                                         "startLine":  25,
+                                         "endLine":  25,
+                                         "startOffset":  20,
+                                         "endOffset":  86
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a CPU request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "8f868313-411f-4e37-8f50-900a1237b789",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  25,
+                       "hash":  "06eb488549af56386319718c3de42ed4",
+                       "textRange":  {
+                                         "startLine":  25,
+                                         "endLine":  25,
+                                         "startOffset":  20,
+                                         "endOffset":  86
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "fbe8f0d8-f6a3-4a40-b65c-32cb1acedf94",
+                       "rule":  "kubernetes:S6864",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  25,
+                       "hash":  "06eb488549af56386319718c3de42ed4",
+                       "textRange":  {
+                                         "startLine":  25,
+                                         "endLine":  25,
+                                         "startOffset":  20,
+                                         "endOffset":  86
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a memory limit for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "fd86ecc5-8f1e-4770-a00a-69d6c7aea857",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  10,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  10,
+                                         "endLine":  10,
+                                         "startOffset":  2,
+                                         "endOffset":  12
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "236a7522-d872-4a01-bb8f-5fa66caeb41e",
+                       "rule":  "kubernetes:S6892",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  11,
+                       "hash":  "45c7676f33ba2d39db7af759057d7e35",
+                       "textRange":  {
+                                         "startLine":  11,
+                                         "endLine":  11,
+                                         "startOffset":  6,
+                                         "endOffset":  10
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a CPU request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "96cfea20-c8df-4057-8b67-f126ff1334bb",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  11,
+                       "hash":  "45c7676f33ba2d39db7af759057d7e35",
+                       "textRange":  {
+                                         "startLine":  11,
+                                         "endLine":  11,
+                                         "startOffset":  6,
+                                         "endOffset":  10
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "a96c5681-e5ce-4d36-9ae5-25410434bfe0",
+                       "rule":  "kubernetes:S6864",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  11,
+                       "hash":  "45c7676f33ba2d39db7af759057d7e35",
+                       "textRange":  {
+                                         "startLine":  11,
+                                         "endLine":  11,
+                                         "startOffset":  6,
+                                         "endOffset":  10
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a memory limit for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "ed824989-4c4c-4190-81ab-a5edc9e2009b",
+                       "rule":  "kubernetes:S6873",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  11,
+                       "hash":  "45c7676f33ba2d39db7af759057d7e35",
+                       "textRange":  {
+                                         "startLine":  11,
+                                         "endLine":  11,
+                                         "startOffset":  6,
+                                         "endOffset":  10
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a memory request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "f22c358f-080d-4178-b17c-9a8234c8bccb",
+                       "rule":  "kubernetes:S6596",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  12,
+                       "hash":  "f3adc113af7acf2ded871b5d2864d329",
+                       "textRange":  {
+                                         "startLine":  12,
+                                         "endLine":  12,
+                                         "startOffset":  13,
+                                         "endOffset":  20
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Use a specific version tag for the image.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "LOGICAL",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "41f93546-27b3-406e-9177-fa010007f355",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  24,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  24,
+                                         "endLine":  24,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "374f9069-c2bb-46b7-95d0-36a23c13a084",
+                       "rule":  "kubernetes:S6864",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  25,
+                       "hash":  "d09f62ef5130a0d25074367f25d07b73",
+                       "textRange":  {
+                                         "startLine":  25,
+                                         "endLine":  25,
+                                         "startOffset":  10,
+                                         "endOffset":  14
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a memory limit for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "7bbddc7c-04b2-418b-9ac0-7fc319dd862d",
+                       "rule":  "kubernetes:S6873",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  25,
+                       "hash":  "d09f62ef5130a0d25074367f25d07b73",
+                       "textRange":  {
+                                         "startLine":  25,
+                                         "endLine":  25,
+                                         "startOffset":  10,
+                                         "endOffset":  14
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a memory request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "936ddc9a-c0c3-4cd1-9e69-96b8a8c77002",
+                       "rule":  "kubernetes:S6892",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  25,
+                       "hash":  "d09f62ef5130a0d25074367f25d07b73",
+                       "textRange":  {
+                                         "startLine":  25,
+                                         "endLine":  25,
+                                         "startOffset":  10,
+                                         "endOffset":  14
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a CPU request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "f65a7a01-ccdb-447a-8ded-f663145ae7d8",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  25,
+                       "hash":  "d09f62ef5130a0d25074367f25d07b73",
+                       "textRange":  {
+                                         "startLine":  25,
+                                         "endLine":  25,
+                                         "startOffset":  10,
+                                         "endOffset":  14
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-09-25T22:38:06+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "8dedd2ec-21ea-4765-98d3-ef3f6a3c73b2",
+                       "rule":  "javascript:S3504",
+                       "severity":  "CRITICAL",
+                       "component":  "mad-deployment-service:compose/object-storage-deployment/lessons-bucket/exploit/index.js",
+                       "project":  "mad-deployment-service",
+                       "line":  1,
+                       "hash":  "f50633fc8d353de5c46865aa421cbb91",
+                       "textRange":  {
+                                         "startLine":  1,
+                                         "endLine":  1,
+                                         "startOffset":  0,
+                                         "endOffset":  9
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Unexpected var, use let or const instead.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "es2015",
+                                    "bad-practice"
+                                ],
+                       "creationDate":  "2023-07-18T23:46:36+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  true,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "CLEAR",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "HIGH"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "01177787-d6bd-4def-87b4-11b553073917",
+                       "rule":  "javascript:S3504",
+                       "severity":  "CRITICAL",
+                       "component":  "mad-deployment-service:compose/object-storage-deployment/lessons-bucket/exploit/index.js",
+                       "project":  "mad-deployment-service",
+                       "line":  3,
+                       "hash":  "016b03d455eb8e1c69381df6a0b0a2e7",
+                       "textRange":  {
+                                         "startLine":  3,
+                                         "endLine":  3,
+                                         "startOffset":  0,
+                                         "endOffset":  15
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Unexpected var, use let or const instead.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "es2015",
+                                    "bad-practice"
+                                ],
+                       "creationDate":  "2023-07-18T23:46:36+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  true,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "CLEAR",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "HIGH"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "96eb4d53-6f6d-462a-9b26-899db72dd423",
+                       "rule":  "javascript:S3504",
+                       "severity":  "CRITICAL",
+                       "component":  "mad-deployment-service:compose/object-storage-deployment/lessons-bucket/exploit/index.js",
+                       "project":  "mad-deployment-service",
+                       "line":  17,
+                       "hash":  "c57caa5eaf2111528442559b0ada3bb0",
+                       "textRange":  {
+                                         "startLine":  17,
+                                         "endLine":  17,
+                                         "startOffset":  0,
+                                         "endOffset":  21
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Unexpected var, use let or const instead.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "es2015",
+                                    "bad-practice"
+                                ],
+                       "creationDate":  "2023-07-18T23:46:36+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  true,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "CLEAR",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "HIGH"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "05f8cc3d-aebc-4e0f-ad0c-c4d97a351d15",
+                       "rule":  "terraform:S1135",
+                       "severity":  "INFO",
+                       "component":  "mad-deployment-service:compose/object-storage-deployment/lessons-bucket/variables.tf",
+                       "project":  "mad-deployment-service",
+                       "line":  8,
+                       "hash":  "3bd86ffdd511e777d585226977abfff6",
+                       "textRange":  {
+                                         "startLine":  8,
+                                         "endLine":  8,
+                                         "startOffset":  0,
+                                         "endOffset":  51
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Complete the task associated to this \"TODO\" comment.",
+                       "effort":  "0min",
+                       "debt":  "0min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-07-18T23:46:36+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "dff3db98-8939-4beb-be82-78b29889b36e",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/db/db-lesson-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  27,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  27,
+                                         "endLine":  27,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "5eca7f91-ea51-4ef8-b88a-c4049bffa576",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/db/db-lesson-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  28,
+                       "hash":  "a0b3f8d3e1b00b2b68e831765fdab5e9",
+                       "textRange":  {
+                                         "startLine":  28,
+                                         "endLine":  28,
+                                         "startOffset":  10,
+                                         "endOffset":  13
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "dfbf669f-1e08-4096-8188-28f6aa4daea8",
+                       "rule":  "kubernetes:S6870",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/db/db-lesson-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  28,
+                       "hash":  "a0b3f8d3e1b00b2b68e831765fdab5e9",
+                       "textRange":  {
+                                         "startLine":  28,
+                                         "endLine":  28,
+                                         "startOffset":  10,
+                                         "endOffset":  13
+                                     },
+                       "flows":  [
+                                     {
+                                         "locations":  [
+                                                           {
+                                                               "component":  "mad-deployment-service:k8s/db/db-lesson-service-deployment.yaml",
+                                                               "textRange":  {
+                                                                                 "startLine":  96,
+                                                                                 "endLine":  96,
+                                                                                 "startOffset":  14,
+                                                                                 "endOffset":  23
+                                                                             },
+                                                               "msg":  "for this volume mount",
+                                                               "msgFormattings":  [
+
+                                                                                  ]
+                                                           }
+                                                       ]
+                                     }
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage limit for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "696dbb6d-0d57-4b82-90d7-88994ab4f99f",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/db/db-scoreboard-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  27,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  27,
+                                         "endLine":  27,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "9735cfa0-8a55-4584-9d5b-762a283b6e31",
+                       "rule":  "kubernetes:S6870",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/db/db-scoreboard-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  28,
+                       "hash":  "a0b3f8d3e1b00b2b68e831765fdab5e9",
+                       "textRange":  {
+                                         "startLine":  28,
+                                         "endLine":  28,
+                                         "startOffset":  10,
+                                         "endOffset":  13
+                                     },
+                       "flows":  [
+                                     {
+                                         "locations":  [
+                                                           {
+                                                               "component":  "mad-deployment-service:k8s/db/db-scoreboard-service-deployment.yaml",
+                                                               "textRange":  {
+                                                                                 "startLine":  81,
+                                                                                 "endLine":  81,
+                                                                                 "startOffset":  14,
+                                                                                 "endOffset":  23
+                                                                             },
+                                                               "msg":  "for this volume mount",
+                                                               "msgFormattings":  [
+
+                                                                                  ]
+                                                           }
+                                                       ]
+                                     }
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage limit for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "b94b2fc0-ccfc-484e-b893-6b74137b4294",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/db/db-scoreboard-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  28,
+                       "hash":  "a0b3f8d3e1b00b2b68e831765fdab5e9",
+                       "textRange":  {
+                                         "startLine":  28,
+                                         "endLine":  28,
+                                         "startOffset":  10,
+                                         "endOffset":  13
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "101b2f9c-a573-426c-a7a3-e2c92956eba1",
+                       "rule":  "secrets:S6694",
+                       "severity":  "BLOCKER",
+                       "component":  "mad-deployment-service:k8s/envs/env-scoreboard-configmap.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  3,
+                       "hash":  "2c18e5a5b29f7daaf0f2cb063064c5d8",
+                       "textRange":  {
+                                         "startLine":  3,
+                                         "endLine":  3,
+                                         "startOffset":  42,
+                                         "endOffset":  46
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Make sure this MongoDB database password gets changed and removed from the code.",
+                       "effort":  "30min",
+                       "debt":  "30min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "TRUSTWORTHY",
+                       "cleanCodeAttributeCategory":  "RESPONSIBLE",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "BLOCKER"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "4f368007-3729-44a1-a441-fd72b496eda7",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  33,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  33,
+                                         "endLine":  33,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "a71e9f51-7436-4b72-9db8-0076c09f2bdb",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  34,
+                       "hash":  "d09f62ef5130a0d25074367f25d07b73",
+                       "textRange":  {
+                                         "startLine":  34,
+                                         "endLine":  34,
+                                         "startOffset":  10,
+                                         "endOffset":  14
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "498c0635-8c42-4563-bc56-382dc2755d9f",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  27,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  27,
+                                         "endLine":  27,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "2e544fbd-69de-48b3-9ba3-d1f3e9afc1fd",
+                       "rule":  "kubernetes:S6870",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  28,
+                       "hash":  "a0b3f8d3e1b00b2b68e831765fdab5e9",
+                       "textRange":  {
+                                         "startLine":  28,
+                                         "endLine":  28,
+                                         "startOffset":  10,
+                                         "endOffset":  13
+                                     },
+                       "flows":  [
+                                     {
+                                         "locations":  [
+                                                           {
+                                                               "component":  "mad-deployment-service:k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+                                                               "textRange":  {
+                                                                                 "startLine":  106,
+                                                                                 "endLine":  106,
+                                                                                 "startOffset":  14,
+                                                                                 "endOffset":  23
+                                                                             },
+                                                               "msg":  "for this volume mount",
+                                                               "msgFormattings":  [
+
+                                                                                  ]
+                                                           }
+                                                       ]
+                                     }
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage limit for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "6b31db0b-8934-46d3-ae64-7f9c60807720",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  28,
+                       "hash":  "a0b3f8d3e1b00b2b68e831765fdab5e9",
+                       "textRange":  {
+                                         "startLine":  28,
+                                         "endLine":  28,
+                                         "startOffset":  10,
+                                         "endOffset":  13
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "38d762ef-3fc9-49c3-886e-cb1bcf301a18",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/mad/mad4shell-service-safe-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  37,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  37,
+                                         "endLine":  37,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "5a88b085-2554-4665-9457-bf1e41110bef",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/mad/mad4shell-service-safe-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  38,
+                       "hash":  "680eb051d1f310f9ba4664c55b4a9634",
+                       "textRange":  {
+                                         "startLine":  38,
+                                         "endLine":  38,
+                                         "startOffset":  10,
+                                         "endOffset":  15
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "50561541-5a7b-4201-9d08-96e8ec6b07f9",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  37,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  37,
+                                         "endLine":  37,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "d5829831-ca38-4d0f-a50e-890951a1200b",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  38,
+                       "hash":  "b3f57beab9efe49129c81a9cd902228c",
+                       "textRange":  {
+                                         "startLine":  38,
+                                         "endLine":  38,
+                                         "startOffset":  10,
+                                         "endOffset":  15
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "3f41a370-c173-43b0-8dce-1c37f6be2096",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/services/jekyll/jekyll-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  19,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  19,
+                                         "endLine":  19,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "1bd0f486-4ccc-4414-8c0d-f5d43a8ac86f",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/services/jekyll/jekyll-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  20,
+                       "hash":  "ab383c23cb9860aa3c060e3504e669fb",
+                       "textRange":  {
+                                         "startLine":  20,
+                                         "endLine":  20,
+                                         "startOffset":  10,
+                                         "endOffset":  15
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "8395a045-d392-4d8f-af46-b85d9c1aa905",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/services/lesson/lesson-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  19,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  19,
+                                         "endLine":  19,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "d53ff154-eacc-42be-8b19-f388386e7db3",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/services/lesson/lesson-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  20,
+                       "hash":  "a0b3f8d3e1b00b2b68e831765fdab5e9",
+                       "textRange":  {
+                                         "startLine":  20,
+                                         "endLine":  20,
+                                         "startOffset":  10,
+                                         "endOffset":  13
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "3c0a48ab-c646-40fe-a0ce-11ac99511a48",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/services/lesson/lesson-service-service.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  36,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  36,
+                                         "endLine":  36,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "5daa16db-ba87-4903-8935-7a2d9c53cbea",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/services/lesson/lesson-service-service.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  37,
+                       "hash":  "a0b3f8d3e1b00b2b68e831765fdab5e9",
+                       "textRange":  {
+                                         "startLine":  37,
+                                         "endLine":  37,
+                                         "startOffset":  10,
+                                         "endOffset":  13
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "f4a4822b-3d9d-4a0a-876a-a5d27291ec3d",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  37,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  37,
+                                         "endLine":  37,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "65c1f279-8fc9-4f07-a919-6fed7debfd09",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  38,
+                       "hash":  "a0b3f8d3e1b00b2b68e831765fdab5e9",
+                       "textRange":  {
+                                         "startLine":  38,
+                                         "endLine":  38,
+                                         "startOffset":  10,
+                                         "endOffset":  13
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "64394e8f-7254-4931-ae59-adc767fd467f",
+                       "rule":  "kubernetes:S6865",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/services/webapp/webapp-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  31,
+                       "hash":  "d9e939dad9db0fbf12a7e7ed37d92d0f",
+                       "textRange":  {
+                                         "startLine":  31,
+                                         "endLine":  31,
+                                         "startOffset":  6,
+                                         "endOffset":  16
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Bind this resource\u0027s automounted service account to RBAC or disable automounting.",
+                       "effort":  "1h",
+                       "debt":  "1h",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "VULNERABILITY",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "SECURITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "70e129d0-1ff5-464c-bc70-c2f0d4d9ecfd",
+                       "rule":  "kubernetes:S6897",
+                       "severity":  "MAJOR",
+                       "component":  "mad-deployment-service:k8s/services/webapp/webapp-deployment.yaml",
+                       "project":  "mad-deployment-service",
+                       "line":  32,
+                       "hash":  "a0b3f8d3e1b00b2b68e831765fdab5e9",
+                       "textRange":  {
+                                         "startLine":  32,
+                                         "endLine":  32,
+                                         "startOffset":  10,
+                                         "endOffset":  13
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Specify a storage request for this container.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+
+                                ],
+                       "creationDate":  "2023-07-17T21:11:14+0100",
+                       "updateDate":  "2025-09-19T01:58:15+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       },
+                                       {
+                                           "softwareQuality":  "RELIABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   }
+               ],
+    "components":  [
+                       {
+                           "key":  "mad-deployment-service:k8s/db/db-lesson-service-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "db-lesson-service-deployment.yaml",
+                           "longName":  "k8s/db/db-lesson-service-deployment.yaml",
+                           "path":  "k8s/db/db-lesson-service-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service",
+                           "enabled":  true,
+                           "qualifier":  "TRK",
+                           "name":  "MAD Deployment Service",
+                           "longName":  "MAD Deployment Service"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/services/jekyll/jekyll-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "jekyll-deployment.yaml",
+                           "longName":  "k8s/services/jekyll/jekyll-deployment.yaml",
+                           "path":  "k8s/services/jekyll/jekyll-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "mad4shell-service-unsafe-deployment.yaml",
+                           "longName":  "k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+                           "path":  "k8s/mad/mad4shell-service-unsafe-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/services/lesson/lesson-service-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "lesson-service-deployment.yaml",
+                           "longName":  "k8s/services/lesson/lesson-service-deployment.yaml",
+                           "path":  "k8s/services/lesson/lesson-service-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/mad/mad4shell-service-safe-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "mad4shell-service-safe-deployment.yaml",
+                           "longName":  "k8s/mad/mad4shell-service-safe-deployment.yaml",
+                           "path":  "k8s/mad/mad4shell-service-safe-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/envs/env-scoreboard-configmap.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "env-scoreboard-configmap.yaml",
+                           "longName":  "k8s/envs/env-scoreboard-configmap.yaml",
+                           "path":  "k8s/envs/env-scoreboard-configmap.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:compose/object-storage-deployment/lessons-bucket/variables.tf",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "variables.tf",
+                           "longName":  "compose/object-storage-deployment/lessons-bucket/variables.tf",
+                           "path":  "compose/object-storage-deployment/lessons-bucket/variables.tf"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/services/lesson/lesson-service-service.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "lesson-service-service.yaml",
+                           "longName":  "k8s/services/lesson/lesson-service-service.yaml",
+                           "path":  "k8s/services/lesson/lesson-service-service.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "test-connection.yaml",
+                           "longName":  "k8s/helm/infra-chart/templates/tests/test-connection.yaml",
+                           "path":  "k8s/helm/infra-chart/templates/tests/test-connection.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/services/webapp/webapp-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "webapp-deployment.yaml",
+                           "longName":  "k8s/services/webapp/webapp-deployment.yaml",
+                           "path":  "k8s/services/webapp/webapp-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:compose/object-storage-deployment/lessons-bucket/exploit/index.js",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "index.js",
+                           "longName":  "compose/object-storage-deployment/lessons-bucket/exploit/index.js",
+                           "path":  "compose/object-storage-deployment/lessons-bucket/exploit/index.js"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "scoreboard-service-deployment.yaml",
+                           "longName":  "k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+                           "path":  "k8s/services/scoreboard/scoreboard-service-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "traefik-deployment.yaml",
+                           "longName":  "k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+                           "path":  "k8s/helm/infra-chart/templates/traefik-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/db/db-scoreboard-service-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "db-scoreboard-service-deployment.yaml",
+                           "longName":  "k8s/db/db-scoreboard-service-deployment.yaml",
+                           "path":  "k8s/db/db-scoreboard-service-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "db-keycloak-service-deployment.yaml",
+                           "longName":  "k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+                           "path":  "k8s/infra/keycloak/db-keycloak-service-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "keycloak-service-deployment.yaml",
+                           "longName":  "k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+                           "path":  "k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml"
+                       },
+                       {
+                           "key":  "mad-deployment-service:k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "rabbitmq-deployment.yaml",
+                           "longName":  "k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+                           "path":  "k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml"
+                       }
+                   ],
+    "facets":  [
+
+               ]
+}

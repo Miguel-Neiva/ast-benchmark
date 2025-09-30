@@ -1,0 +1,18 @@
+[
+  {
+    "projectName": "MAD-Goat-Project/mad-goat-images",
+    "results": [
+      {
+        "engineType": "SCA",
+        "details": [
+          {
+            "ResultId": "cve-2017-7529-nginx-hash",
+            "ResourceType": "Package",
+            "Resource": "nginx",
+            "VulnerabilityValue": "CWE-2017-7529"
+          }
+        ]
+      }
+    ]
+  }
+]

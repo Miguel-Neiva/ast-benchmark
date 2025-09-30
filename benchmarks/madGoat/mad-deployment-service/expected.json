@@ -1,0 +1,19 @@
+[
+  {
+    "projectName": "mad-deployment-service",
+    "results": [
+      {
+        "engineType": "IAC",
+        "details": [
+          {
+            "ResultId": "minio-public-bucket-hash",
+            "ResourceType": "Filename",
+            "Resource": "/storage.tf",
+            "VulnerabilityCategory": "CWE",
+            "VulnerabilityValue": "CWE-668"
+          }
+        ]
+      }
+    ]
+  }
+]

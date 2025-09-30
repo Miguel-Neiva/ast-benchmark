@@ -1,0 +1,1412 @@
+[
+  {
+    "projectName": "MAD-Goat-Project/mad-deployment-service",
+    "results": [
+      {
+        "engineType": "IAC",
+        "details": [
+          {
+            "ResultId": "e2b7e70c33b8ffab0e397cbfa769e2a7",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Volume Mount With OS Directory Write Permissions",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "8254f344eca796f5905b41c353f508fd",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Volume Mount With OS Directory Write Permissions",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "514ca8b2c546985cbc3d03c5b1b276e5",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/webapp/webapp-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "961b08f8d58896c7e835c98a7946af9a",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "7e48b9aac74b4cb0207bdd3b7a47318d",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/jekyll/jekyll-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "0bd9ab89259716daef46a9a9b2aa8d48",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "ba97a5d04efee73e293916ab013b0dae",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "5628d4326720aed41282eba3db1703ae",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "9bc33f5ab9ac5df090cb027d513333ec",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "aed3fce3df32fde6a787612d70fbfa50",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-safe-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "89859629c23e193cd1bcd0a3ab1f80e3",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "73a71727f3a8bccb42c7b67fb4afdcd1",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "fa4f81421d62dfff1470c9d793d199a3",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "9bb7260bddc71f382db4a07c2a66dbdf",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "7640fb57a70cf0911aba4b4986995fe0",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Privilege Escalation Allowed",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "89cd1cdbc2caaa90816420061c376b14",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/webapp/webapp-deployment.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "4780ff8d9a8d3edf5b6e18280a5ac54d",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/jekyll/jekyll-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "fe05eb2d9b0862e554f929cbd254144e",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/keycloak/db-keycloak-service-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "98975b7176ec538c676741a55c7c9d65",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-scoreboard-service-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "6bcbd85eb8ad7d9d5e167a22e61d13dd",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "486e6636f4fb24a97ec6e252a254c8b2",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "587ed03e1c43c58fd77a670cd9f99537",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-keycloak-configmap.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "4a35285b107901ebe570e3bfe482145c",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-webapp-configmap.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "1f074c8a559646ca2942c46841f4f115",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "53b58c32374acc3a464571e19e52d59a",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "4be7c61fb7f4125f4830bbf0ef6544c0",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-unsafe-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "9e9c3ebf954a919d5b0209d3fac5ce19",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "178d0db34cd929a398782b77edcec2b7",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "d78f4b7a8840c750b88cdad3120b08f6",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "a7850cf812d0f423a6a8a31321796752",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-lesson-configmap.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "e25ac0274840a0517dad114845880893",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/keycloak-service-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "44fd3e03f7d2659808927825575a9995",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-safe-deployment.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "866c6f580aa7c90ce9f3b6fea6d71a3a",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/jekyll/jekyll-deployment.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "73c5c1cc9821db4f25544a4e3ac707bd",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "eade44bf6615f482d43445f77d1d9155",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-lesson-service-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "21c6b0e808d5ff602a92f157e213a101",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/scoreboard/scoreboard-service-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "58e0a62ff2c251c93f6c15a45adc860c",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/webapp/webapp-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "8bcc5a8e072db91d6d0a7f7401ccbf78",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-safe-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "e1869d64b42ec15b6a7347c1f1827d3f",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-scoreboard-configmap.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "40f96020f55ad03565322cc64ba1dd66",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-keycloak-secrets-configmap.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "53b58c32374acc3a464571e19e52d59a",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "940e56f430213298fcd7c8434544d9e3",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/traefik-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "9ae167e2b368c6c27067838ec75c7428",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/rabbitmq-service.yaml",
+            "VulnerabilityCategory": "Using Unrecommended Namespace",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "9ff6b733576586753951f560bb4dc5ad",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "0f004c64968d2a01a5ef71c148846547",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "11f509a53821f610a1c41d5c8a898aab",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "dc870e7d82126982651c4a0b183c3740",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "997ede2be00dbfce3d4ae89f092f591b",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "c69c843b43ad8b9da4e29dcc1648cdcf",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "6a9ec5b298b64c92f7e9a2843f7a0904",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/jekyll/jekyll-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "deddc5f5e30b1f6abdf40d3800125341",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "58ef70ea44c32bb46819a173b8f0db5f",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "394c2b63524eb47ccf71c7ab9baa61ca",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/webapp/webapp-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "396cde0494154fa8c3e0f3fd3771573c",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "1c283fdc6325baf259b3f017f5fcdbfb",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-safe-deployment.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "c85bd669879e50b57021294a356ba85e",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "Service Account Token Automount Not Disabled",
+            "VulnerabilityValue": "CWE-668"
+          },
+          {
+            "ResultId": "bb90e356674574b17a5323d06b3e51a8",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "0346a3cbf4ddd3e7d190b1dbe48dec67",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "4bd95d230c9c546482a572d14f64102a",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "8869c84933a5577b6c24c564eb87d0e2",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-safe-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "05383afaf0e74d7c3788f6a4b52541c9",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "d7beb56234097dedbdb1e127cfdb320e",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/jekyll/jekyll-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "1b6177bdd8952bb0abae7a20f36f9fb5",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "a96d88f937f1811a67fd5a401032a59f",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "61291bcdd2e1dedb29336a6bbc320b06",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "113a5f9e591f7dbf26774859ed1dcfe3",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "2b713c60059a3196267c64d6540d85e9",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/webapp/webapp-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "06d671a8e7bb24666cf1ec07e159d677",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "d8f2c10964afc1607c49d4e9be3f5b68",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "Seccomp Profile Is Not Configured",
+            "VulnerabilityValue": "CWE-284"
+          },
+          {
+            "ResultId": "e15efdb2ed43d8c5b273a741ea16575e",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "50f9c55fd6600ee24c091fbdb72019ce",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "e5d58afee9b3e1889365a2a00b56b6a3",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "b6868182e51b504c81d42704297fdfe1",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "559e36ca4c3c6ee554f470744f1f5df7",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/webapp/webapp-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "8797ba0a4e5cf8d816d7b0409fab10ef",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "8fd7fe0e2735e4e1ff25631eb89a8c13",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "22eb1bff0941dbe2b27c927e3406a283",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-safe-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "f96428fafdb24d1180e38524ea963421",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "e1ffadb7f2f11008809a81aa464777ad",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/jekyll/jekyll-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "f5c85d84ba18d5f74fc97a9628f3f8f7",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "fbdaf4ca34c8f3b6aaa6e1b464fe023f",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "dc1a5e608d9a709c486046c4a809143f",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+            "VulnerabilityCategory": "Readiness Probe Is Not Configured",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "1f8a8145b61aa27a6b72835494a4a243",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "d068486555154a84aaa0e05a9dc44353",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "61fb0c638bce837a1a82f17ab4e74ae8",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "73f427a54df655251b2e0c47439efd80",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/jekyll/jekyll-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "b3077a9a2c10e19ae174375b88f3f76f",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/webapp/webapp-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "ce89cc96e1ce1ea2e2dacb986ac0451b",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "a0208b3d769f4b2819543242400a66b5",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "ad1fa426f7ac07ff07bae598246c5d63",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "9b22f62959684df2f1c066667b173912",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "09f646d5da1fa9c548799f7248011a99",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "0d42814e78cb69eb666655209fa495d4",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "fc1d18365775e1bdd5d6a3f62f04d0af",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "277a3a90861629701e09c1688b25a2be",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-safe-deployment.yaml",
+            "VulnerabilityCategory": "NET_RAW Capabilities Not Being Dropped",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "5d2079b824ebcf1efba327fb0e783c9a",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "Memory Requests Not Defined",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "a44e8c420de3cc794821a5b58405037d",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "Memory Requests Not Defined",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "6dae91077ae3e662902030f7df2bd303",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "Memory Limits Not Defined",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "94bdab14c280177d0287d10d457795a5",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "Memory Limits Not Defined",
+            "VulnerabilityValue": "CWE-400"
+          },
+          {
+            "ResultId": "09c9d489e0e26307c64055e16d401e15",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-safe-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "ce488eff3666d0fd44112c68a42c9547",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/webapp/webapp-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "aa796c1041196594275d8eceadb553b1",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "5dc5025282165bb55ca13a59e0c63b2b",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "505dc17440cce9cbd149c923c7c58376",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "15a4c8face66eafd93880376f8a36fd3",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/jekyll/jekyll-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "71cb2940ccb39a653561d693359ee777",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "d700bc93fd7030907b9ee99d016cf730",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "ab81a247c2b16c318f49159986f21b23",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "6440a10b6a76f407020fc98f8795e388",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "ed899d93ae06046f0895b4dce1dc6c5b",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "2098fad419bb09bb021ea3811846f391",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "d0464b10ade494d3b7b861b7deffa8f7",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "Container Running With Low UID",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "281ad135cb28873ba5afb9d585e75601",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-safe-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "303d15c764c50f06b01e8fe179331d69",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "6a7a88c570e93fc6f66ac7fad0cd7cee",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "9ae057a5150bfc003f5d55db1af9e0df",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/webapp/webapp-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "13ddc3c1dcb526d4cf10674001ba4199",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/traefik-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "13290465940c13bae16337fdb2a91963",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "d5a97578b79a477015bc59c71628111d",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/jekyll/jekyll-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "33f3f8e533d8fac37a7520cfc21819ae",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/scoreboard/scoreboard-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "1b44cc32050013428fa97572fc66b485",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/db/db-lesson-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "c973cce69c65e71b11b6fc195790903a",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/services/lesson/lesson-service-service.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "3e7007359e5a3224ad0ddf5a23317fb9",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/helm/infra-chart/templates/rabbitmq-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "48121c32e3ded3f9980c7861c9c4f9bd",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/keycloak/db-keycloak-service-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "903dfe8de8a1648331369486e363498e",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/mad/mad4shell-service-unsafe-deployment.yaml",
+            "VulnerabilityCategory": "Container Running As Root",
+            "VulnerabilityValue": "CWE-250"
+          },
+          {
+            "ResultId": "d570c5ffd06287ff92619b1502bed09b",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Volume Has Sensitive Host Directory",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "64fa15827a835a82af0ef5dedc401b67",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Docker Socket Mounted In Container",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "941326e4ba7fec4c89855a763b6a4d4d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "941326e4ba7fec4c89855a763b6a4d4d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "941326e4ba7fec4c89855a763b6a4d4d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "941326e4ba7fec4c89855a763b6a4d4d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "941326e4ba7fec4c89855a763b6a4d4d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "c29886a8fef932387afae5563cf2dcb9",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "de98c609549a521b91b5d3b67c0d77ab",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/traefik/values.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "941326e4ba7fec4c89855a763b6a4d4d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "c29886a8fef932387afae5563cf2dcb9",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "941326e4ba7fec4c89855a763b6a4d4d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "c29886a8fef932387afae5563cf2dcb9",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "c29886a8fef932387afae5563cf2dcb9",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "941326e4ba7fec4c89855a763b6a4d4d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "941326e4ba7fec4c89855a763b6a4d4d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "c29886a8fef932387afae5563cf2dcb9",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Security Opt Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "ca36ceb08c8015a8842bffde1e29df2d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Privileged Ports Mapped In Container",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "b001100a0948dac0bfb0bbd6fcb81578",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Privileged Ports Mapped In Container",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "ca36ceb08c8015a8842bffde1e29df2d",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Privileged Ports Mapped In Container",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "63f99ea70960e3e4d0052fd9a4e073bf",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "abe12c78933e9f99c03e5c67c89c01cd",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "708ac96889f9bc71038e4a7c3cc10477",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/traefik/values.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "63f99ea70960e3e4d0052fd9a4e073bf",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "abe12c78933e9f99c03e5c67c89c01cd",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "63f99ea70960e3e4d0052fd9a4e073bf",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "abe12c78933e9f99c03e5c67c89c01cd",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "abe12c78933e9f99c03e5c67c89c01cd",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "abe12c78933e9f99c03e5c67c89c01cd",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "abe12c78933e9f99c03e5c67c89c01cd",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "abe12c78933e9f99c03e5c67c89c01cd",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "63f99ea70960e3e4d0052fd9a4e073bf",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "abe12c78933e9f99c03e5c67c89c01cd",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "abe12c78933e9f99c03e5c67c89c01cd",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "63f99ea70960e3e4d0052fd9a4e073bf",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Healthcheck Not Set",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "b17145a4b79f2f268881a0a9b4a4e684",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "b17145a4b79f2f268881a0a9b4a4e684",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "2c7f34f73589eb4141d5e1e15f60d0d8",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "2c7f34f73589eb4141d5e1e15f60d0d8",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "2c7f34f73589eb4141d5e1e15f60d0d8",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "2c7f34f73589eb4141d5e1e15f60d0d8",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "9b772cb4de21391635de86ed0003330b",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/traefik/values.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "b17145a4b79f2f268881a0a9b4a4e684",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "b17145a4b79f2f268881a0a9b4a4e684",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "2c7f34f73589eb4141d5e1e15f60d0d8",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "b17145a4b79f2f268881a0a9b4a4e684",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "2c7f34f73589eb4141d5e1e15f60d0d8",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "2c7f34f73589eb4141d5e1e15f60d0d8",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "2c7f34f73589eb4141d5e1e15f60d0d8",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "2c7f34f73589eb4141d5e1e15f60d0d8",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Traffic Not Bound To Host Interface",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "191742fa4f6de3b4ee8463eed30ed5e7",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "6003c83e592ae4bd66923744feaeed48",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "191742fa4f6de3b4ee8463eed30ed5e7",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "6003c83e592ae4bd66923744feaeed48",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "191742fa4f6de3b4ee8463eed30ed5e7",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "191742fa4f6de3b4ee8463eed30ed5e7",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "6003c83e592ae4bd66923744feaeed48",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "191742fa4f6de3b4ee8463eed30ed5e7",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "6003c83e592ae4bd66923744feaeed48",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "191742fa4f6de3b4ee8463eed30ed5e7",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "191742fa4f6de3b4ee8463eed30ed5e7",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "6003c83e592ae4bd66923744feaeed48",
+            "ResourceType": "Filename",
+            "Resource": "/compose/infrastructure.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "ab8f2274218fe9dca3bab56fc3b049d7",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/infra/traefik/values.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "191742fa4f6de3b4ee8463eed30ed5e7",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "191742fa4f6de3b4ee8463eed30ed5e7",
+            "ResourceType": "Filename",
+            "Resource": "/compose/services.yaml",
+            "VulnerabilityCategory": "Container Capabilities Unrestricted",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "ec9cd3b33067b1d724c225bfa78c69dd",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-scoreboard-configmap.yaml",
+            "VulnerabilityCategory": "Passwords And Secrets - Password in URL",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "e1a61ba8e9819723f312632ebc54536c",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-lesson-configmap.yaml",
+            "VulnerabilityCategory": "Passwords And Secrets - Password in URL",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "ec9cd3b33067b1d724c225bfa78c69dd",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-scoreboard-configmap.yaml",
+            "VulnerabilityCategory": "Passwords And Secrets - Password in URL",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "98331965eb4927049edf1886be167e33",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-keycloak-secrets-configmap.yaml",
+            "VulnerabilityCategory": "Passwords And Secrets - Generic Secret",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "952a825b75ddce91b6ba38fc9764ada7",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-lesson-configmap.yaml",
+            "VulnerabilityCategory": "Passwords And Secrets - Generic Password",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "3e1233af173c70a9cc8504a49335d248",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-keycloak-configmap.yaml",
+            "VulnerabilityCategory": "Passwords And Secrets - Generic Password",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "3e1233af173c70a9cc8504a49335d248",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-keycloak-configmap.yaml",
+            "VulnerabilityCategory": "Passwords And Secrets - Generic Password",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "dfdaa1523374c889b09a34b444959054",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-scoreboard-configmap.yaml",
+            "VulnerabilityCategory": "Passwords And Secrets - Generic Password",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "952a825b75ddce91b6ba38fc9764ada7",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-lesson-configmap.yaml",
+            "VulnerabilityCategory": "Passwords And Secrets - Generic Password",
+            "VulnerabilityValue": "CWE-710"
+          },
+          {
+            "ResultId": "3e1233af173c70a9cc8504a49335d248",
+            "ResourceType": "Filename",
+            "Resource": "/k8s/envs/env-keycloak-configmap.yaml",
+            "VulnerabilityCategory": "Passwords And Secrets - Generic Password",
+            "VulnerabilityValue": "CWE-710"
+          }
+        ]
+      }
+    ]
+  }
+]

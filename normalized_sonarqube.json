@@ -1,0 +1,19 @@
+[
+  {
+    "projectName": "mad-Keycloak-service",
+    "results": [
+      {
+        "engineType": "IAC",
+        "details": [
+          {
+            "ResultId": "7775857835b68a47071ea1d56154241a",
+            "ResourceType": "Filename",
+            "Resource": "keycloak/Dockerfile",
+            "VulnerabilityCategory": "CWE",
+            "VulnerabilityValue": "710"
+          }
+        ]
+      }
+    ]
+  }
+]

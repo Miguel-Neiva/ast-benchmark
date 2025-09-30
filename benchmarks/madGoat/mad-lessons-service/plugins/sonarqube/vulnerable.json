@@ -1,0 +1,94 @@
+[
+  {
+    "projectName": "mad-lessons-service",
+    "results": [
+      {
+        "engineType": "SAST",
+        "details": [
+          {
+            "ResultId": "f17d302f6fa5d4d0bca76075c71a6296",
+            "ResourceType": "FileName",
+            "Resource": "src/resources/assessment-progress/assessment-progress.controller.ts",
+            "VulnerabilityCategory": "typescript:S1135",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - typescript:S1135"
+          },
+          {
+            "ResultId": "3c74f93b6320fc722b2ef8bd2f8d391d",
+            "ResourceType": "FileName",
+            "Resource": "src/resources/lesson-progress/lesson-progress.controller.spec.ts",
+            "VulnerabilityCategory": "typescript:S1854",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - typescript:S1854"
+          },
+          {
+            "ResultId": "4033fc918cd0de2feb9741959a3be072",
+            "ResourceType": "FileName",
+            "Resource": "src/resources/answers/dto/validate-answers.dto.ts",
+            "VulnerabilityCategory": "typescript:S101",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - typescript:S101"
+          },
+          {
+            "ResultId": "810b8f0369b1ff1f07178672c86bc0bd",
+            "ResourceType": "FileName",
+            "Resource": "src/resources/assessment-progress/assessment-progress.service.ts",
+            "VulnerabilityCategory": "typescript:S1135",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - typescript:S1135"
+          },
+          {
+            "ResultId": "da211d31802b82ba435ec1ce3df3798b",
+            "ResourceType": "FileName",
+            "Resource": "src/resources/hints/dto/create-hint.dto.ts",
+            "VulnerabilityCategory": "typescript:S2094",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - typescript:S2094"
+          },
+          {
+            "ResultId": "1d6223b9d801edb803d066d8ca3110b7",
+            "ResourceType": "FileName",
+            "Resource": "src/resources/hints/entities/hint.entity.ts",
+            "VulnerabilityCategory": "typescript:S2094",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - typescript:S2094"
+          },
+          {
+            "ResultId": "f1c4c1eaf54ce34256f698449f7e179c",
+            "ResourceType": "FileName",
+            "Resource": "src/resources/lesson-progress/lesson-progress.controller.ts",
+            "VulnerabilityCategory": "typescript:S1135",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - typescript:S1135"
+          },
+          {
+            "ResultId": "87f7f4066bd2d0ca30d282076bfa4acf",
+            "ResourceType": "FileName",
+            "Resource": "src/resources/lesson-progress/lesson-progress.service.ts",
+            "VulnerabilityCategory": "typescript:S1135",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - typescript:S1135"
+          },
+          {
+            "ResultId": "dfcf40d880311f7f875c7fd6c754002f",
+            "ResourceType": "FileName",
+            "Resource": "src/resources/answers/dto/validate-answer.dto.ts",
+            "VulnerabilityCategory": "typescript:S101",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - typescript:S101"
+          },
+          {
+            "ResultId": "6f59558259a1c26d83288dc261c89642",
+            "ResourceType": "FileName",
+            "Resource": "src/resources/answers/entities/answer.entity.ts",
+            "VulnerabilityCategory": "typescript:S2094",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - typescript:S2094"
+          }
+        ]
+      },
+      {
+        "engineType": "IAC",
+        "details": [
+          {
+            "ResultId": "8ce8b3f3488da75c6cf7634f99b8e8fb",
+            "ResourceType": "Filename",
+            "Resource": "Dockerfile",
+            "VulnerabilityCategory": "docker:S6476",
+            "VulnerabilityValue": "CWE-710: Coding Standards Violation - docker:S6476"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "projectName": "MAD-Goat-Project/mad-goat4shell-service",
+    "results": [
+      {
+        "engineType": "SCA",
+        "details": [
+          {
+            "ResultId": "8ec311ea1d3b90f98ece6d9d8708cfd0",
+            "ResourceType": "Package",
+            "Resource": "org.apache.logging.log4j:log4j-core",
+            "VulnerabilityCategory": "CWE",
+            "VulnerabilityValue": "502"
+          }
+        ]
+      }
+    ]
+  }
+]

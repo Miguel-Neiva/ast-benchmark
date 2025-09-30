@@ -1,0 +1,978 @@
+﻿{
+    "total":  18,
+    "p":  1,
+    "ps":  500,
+    "paging":  {
+                   "pageIndex":  1,
+                   "pageSize":  500,
+                   "total":  18
+               },
+    "effortTotal":  41,
+    "issues":  [
+                   {
+                       "key":  "622018d4-f6d0-4124-9416-a4d2094d4b7b",
+                       "rule":  "typescript:S1135",
+                       "severity":  "INFO",
+                       "component":  "mad-lessons-service:src/resources/assessment-progress/assessment-progress.controller.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  30,
+                       "hash":  "0531f911d6bfa7462f6904e98bdc281c",
+                       "textRange":  {
+                                         "startLine":  30,
+                                         "endLine":  30,
+                                         "startOffset":  5,
+                                         "endOffset":  9
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Complete the task associated to this \"TODO\" comment.",
+                       "effort":  "0min",
+                       "debt":  "0min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-07-06T23:09:04+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "703aaa82-ee8a-478e-b7ee-5365e33a816d",
+                       "rule":  "typescript:S1135",
+                       "severity":  "INFO",
+                       "component":  "mad-lessons-service:src/resources/assessment-progress/assessment-progress.controller.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  31,
+                       "hash":  "161198e489065fd33ab818c71e646068",
+                       "textRange":  {
+                                         "startLine":  31,
+                                         "endLine":  31,
+                                         "startOffset":  5,
+                                         "endOffset":  9
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Complete the task associated to this \"TODO\" comment.",
+                       "effort":  "0min",
+                       "debt":  "0min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-07-06T23:09:04+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "19dd056a-3396-465a-a873-bd1193864220",
+                       "rule":  "typescript:S1854",
+                       "severity":  "MAJOR",
+                       "component":  "mad-lessons-service:src/resources/lesson-progress/lesson-progress.controller.spec.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  24,
+                       "hash":  "865adda93b0a84bf9b58c181aad3094b",
+                       "textRange":  {
+                                         "startLine":  24,
+                                         "endLine":  24,
+                                         "startOffset":  4,
+                                         "endOffset":  11
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Remove this useless assignment to variable \"service\".",
+                       "effort":  "1min",
+                       "debt":  "1min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe",
+                                    "unused"
+                                ],
+                       "creationDate":  "2023-07-05T23:02:06+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "LOGICAL",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "293fda7a-b9c0-49f6-b0c6-7c7a582045d1",
+                       "rule":  "typescript:S101",
+                       "severity":  "MINOR",
+                       "component":  "mad-lessons-service:src/resources/answers/dto/validate-answers.dto.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  3,
+                       "hash":  "9235955d6e4b02ab286d39c0b61462e5",
+                       "textRange":  {
+                                         "startLine":  3,
+                                         "endLine":  3,
+                                         "startOffset":  13,
+                                         "endOffset":  31
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Rename class \"validateAnswersDto\" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "convention"
+                                ],
+                       "creationDate":  "2023-06-10T18:15:41+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "IDENTIFIABLE",
+                       "cleanCodeAttributeCategory":  "CONSISTENT",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "LOW"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "d29a03c6-2de2-4016-a45c-7ec7bc58d918",
+                       "rule":  "typescript:S1135",
+                       "severity":  "INFO",
+                       "component":  "mad-lessons-service:src/resources/assessment-progress/assessment-progress.service.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  18,
+                       "hash":  "8b1aea3c9c4c2db5ad00bab886d855c3",
+                       "textRange":  {
+                                         "startLine":  18,
+                                         "endLine":  18,
+                                         "startOffset":  5,
+                                         "endOffset":  9
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Complete the task associated to this \"TODO\" comment.",
+                       "effort":  "0min",
+                       "debt":  "0min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-06-05T23:43:30+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "3de3d653-6a4d-4d56-81d4-b632b629f32a",
+                       "rule":  "typescript:S1135",
+                       "severity":  "INFO",
+                       "component":  "mad-lessons-service:src/resources/assessment-progress/assessment-progress.service.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  19,
+                       "hash":  "7db891fc9f9649b3ab6f88d438e62056",
+                       "textRange":  {
+                                         "startLine":  19,
+                                         "endLine":  19,
+                                         "startOffset":  5,
+                                         "endOffset":  9
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Complete the task associated to this \"TODO\" comment.",
+                       "effort":  "0min",
+                       "debt":  "0min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-06-05T23:43:30+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "5df54da8-a446-406e-a141-679697523200",
+                       "rule":  "typescript:S1135",
+                       "severity":  "INFO",
+                       "component":  "mad-lessons-service:src/resources/assessment-progress/assessment-progress.service.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  20,
+                       "hash":  "1cdc862aed1ec6a1d339146cf56a2d62",
+                       "textRange":  {
+                                         "startLine":  20,
+                                         "endLine":  20,
+                                         "startOffset":  5,
+                                         "endOffset":  9
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Complete the task associated to this \"TODO\" comment.",
+                       "effort":  "0min",
+                       "debt":  "0min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-06-05T23:43:30+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "798b7cba-3b91-433c-a4e7-34a42fced1f2",
+                       "rule":  "typescript:S2094",
+                       "severity":  "MINOR",
+                       "component":  "mad-lessons-service:src/resources/hints/dto/create-hint.dto.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  1,
+                       "hash":  "7a495ee1581e0d9b444b17d0b6a331dc",
+                       "textRange":  {
+                                         "startLine":  1,
+                                         "endLine":  1,
+                                         "startOffset":  13,
+                                         "endOffset":  26
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Unexpected empty class.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "clumsy"
+                                ],
+                       "creationDate":  "2023-06-05T23:43:30+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "CLEAR",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "LOW"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "ab51b9c6-2c60-41ae-a896-14cfb0c2f08a",
+                       "rule":  "typescript:S2094",
+                       "severity":  "MINOR",
+                       "component":  "mad-lessons-service:src/resources/hints/entities/hint.entity.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  1,
+                       "hash":  "8fa924824de9296b6450b5bef018a31a",
+                       "textRange":  {
+                                         "startLine":  1,
+                                         "endLine":  1,
+                                         "startOffset":  13,
+                                         "endOffset":  17
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Unexpected empty class.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "clumsy"
+                                ],
+                       "creationDate":  "2023-06-05T23:43:30+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "CLEAR",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "LOW"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "6bb05279-5000-495e-a5e6-f0174d83f9e8",
+                       "rule":  "typescript:S1135",
+                       "severity":  "INFO",
+                       "component":  "mad-lessons-service:src/resources/lesson-progress/lesson-progress.controller.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  35,
+                       "hash":  "80c5f3056fcf2325e4427054e0fb21b4",
+                       "textRange":  {
+                                         "startLine":  35,
+                                         "endLine":  35,
+                                         "startOffset":  5,
+                                         "endOffset":  9
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Complete the task associated to this \"TODO\" comment.",
+                       "effort":  "0min",
+                       "debt":  "0min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-06-05T23:43:30+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "14d1e860-f820-46d6-8395-095dc37b77fb",
+                       "rule":  "typescript:S1135",
+                       "severity":  "INFO",
+                       "component":  "mad-lessons-service:src/resources/lesson-progress/lesson-progress.service.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  15,
+                       "hash":  "2481d7fb0282639f154194db55c2b5e2",
+                       "textRange":  {
+                                         "startLine":  15,
+                                         "endLine":  15,
+                                         "startOffset":  5,
+                                         "endOffset":  9
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Complete the task associated to this \"TODO\" comment.",
+                       "effort":  "0min",
+                       "debt":  "0min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-06-05T23:43:30+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "b514f255-5e61-4b8a-9916-4e9549c76ead",
+                       "rule":  "typescript:S1135",
+                       "severity":  "INFO",
+                       "component":  "mad-lessons-service:src/resources/lesson-progress/lesson-progress.service.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  16,
+                       "hash":  "7db891fc9f9649b3ab6f88d438e62056",
+                       "textRange":  {
+                                         "startLine":  16,
+                                         "endLine":  16,
+                                         "startOffset":  5,
+                                         "endOffset":  9
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Complete the task associated to this \"TODO\" comment.",
+                       "effort":  "0min",
+                       "debt":  "0min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-06-05T23:43:30+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "beae11d9-3e13-43d4-a21e-6629854f6e8e",
+                       "rule":  "typescript:S1135",
+                       "severity":  "INFO",
+                       "component":  "mad-lessons-service:src/resources/lesson-progress/lesson-progress.service.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  17,
+                       "hash":  "1cdc862aed1ec6a1d339146cf56a2d62",
+                       "textRange":  {
+                                         "startLine":  17,
+                                         "endLine":  17,
+                                         "startOffset":  5,
+                                         "endOffset":  9
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Complete the task associated to this \"TODO\" comment.",
+                       "effort":  "0min",
+                       "debt":  "0min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "cwe"
+                                ],
+                       "creationDate":  "2023-06-05T23:43:30+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "COMPLETE",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "INFO"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "b4835687-9201-445d-9f3f-f9072709da9d",
+                       "rule":  "typescript:S101",
+                       "severity":  "MINOR",
+                       "component":  "mad-lessons-service:src/resources/answers/dto/validate-answer.dto.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  3,
+                       "hash":  "f45468e4936e3f7fe593bdead09b2e4c",
+                       "textRange":  {
+                                         "startLine":  3,
+                                         "endLine":  3,
+                                         "startOffset":  13,
+                                         "endOffset":  30
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Rename class \"validateAnswerDto\" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "convention"
+                                ],
+                       "creationDate":  "2023-05-14T15:58:45+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "IDENTIFIABLE",
+                       "cleanCodeAttributeCategory":  "CONSISTENT",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "LOW"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "55679731-d084-42e0-aa55-f9ba6d231db1",
+                       "rule":  "typescript:S2094",
+                       "severity":  "MINOR",
+                       "component":  "mad-lessons-service:src/resources/answers/entities/answer.entity.ts",
+                       "project":  "mad-lessons-service",
+                       "line":  1,
+                       "hash":  "004fcdcca294ba544d1c3d6273cee54a",
+                       "textRange":  {
+                                         "startLine":  1,
+                                         "endLine":  1,
+                                         "startOffset":  13,
+                                         "endOffset":  19
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Unexpected empty class.",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "clumsy"
+                                ],
+                       "creationDate":  "2023-05-14T15:58:45+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "CLEAR",
+                       "cleanCodeAttributeCategory":  "INTENTIONAL",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "LOW"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "71d81823-9125-43b4-bda7-32832d073779",
+                       "rule":  "docker:S6476",
+                       "severity":  "MAJOR",
+                       "component":  "mad-lessons-service:Dockerfile",
+                       "project":  "mad-lessons-service",
+                       "line":  5,
+                       "hash":  "e138870eeb77e67db3101b091005bd4d",
+                       "textRange":  {
+                                         "startLine":  5,
+                                         "endLine":  5,
+                                         "startOffset":  20,
+                                         "endOffset":  22
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Replace \"As\" with upper case format \"AS\".",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "convention"
+                                ],
+                       "creationDate":  "2023-04-16T18:43:29+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "FORMATTED",
+                       "cleanCodeAttributeCategory":  "CONSISTENT",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "ff1e9dde-1905-498c-8949-afec6635b818",
+                       "rule":  "docker:S6476",
+                       "severity":  "MAJOR",
+                       "component":  "mad-lessons-service:Dockerfile",
+                       "project":  "mad-lessons-service",
+                       "line":  28,
+                       "hash":  "52446412b77467dc8d48e0ea9997cc78",
+                       "textRange":  {
+                                         "startLine":  28,
+                                         "endLine":  28,
+                                         "startOffset":  20,
+                                         "endOffset":  22
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Replace \"As\" with upper case format \"AS\".",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "convention"
+                                ],
+                       "creationDate":  "2023-04-16T18:43:29+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "FORMATTED",
+                       "cleanCodeAttributeCategory":  "CONSISTENT",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   },
+                   {
+                       "key":  "fcd766dc-e23c-491d-8d18-1930ff4d6d2a",
+                       "rule":  "docker:S6476",
+                       "severity":  "MAJOR",
+                       "component":  "mad-lessons-service:Dockerfile",
+                       "project":  "mad-lessons-service",
+                       "line":  54,
+                       "hash":  "e46ec118cef135e1a281aed8d821ca5d",
+                       "textRange":  {
+                                         "startLine":  54,
+                                         "endLine":  54,
+                                         "startOffset":  20,
+                                         "endOffset":  22
+                                     },
+                       "flows":  [
+
+                                 ],
+                       "status":  "OPEN",
+                       "message":  "Replace \"As\" with upper case format \"AS\".",
+                       "effort":  "5min",
+                       "debt":  "5min",
+                       "author":  "luisventuzelos@gmail.com",
+                       "tags":  [
+                                    "convention"
+                                ],
+                       "creationDate":  "2023-04-16T18:43:29+0100",
+                       "updateDate":  "2025-09-19T02:34:52+0100",
+                       "type":  "CODE_SMELL",
+                       "scope":  "MAIN",
+                       "quickFixAvailable":  false,
+                       "messageFormattings":  [
+
+                                              ],
+                       "codeVariants":  [
+
+                                        ],
+                       "cleanCodeAttribute":  "FORMATTED",
+                       "cleanCodeAttributeCategory":  "CONSISTENT",
+                       "impacts":  [
+                                       {
+                                           "softwareQuality":  "MAINTAINABILITY",
+                                           "severity":  "MEDIUM"
+                                       }
+                                   ],
+                       "issueStatus":  "OPEN",
+                       "prioritizedRule":  false,
+                       "fromSonarQubeUpdate":  false
+                   }
+               ],
+    "components":  [
+                       {
+                           "key":  "mad-lessons-service:src/resources/answers/entities/answer.entity.ts",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "answer.entity.ts",
+                           "longName":  "src/resources/answers/entities/answer.entity.ts",
+                           "path":  "src/resources/answers/entities/answer.entity.ts"
+                       },
+                       {
+                           "key":  "mad-lessons-service:Dockerfile",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "Dockerfile",
+                           "longName":  "Dockerfile",
+                           "path":  "Dockerfile"
+                       },
+                       {
+                           "key":  "mad-lessons-service:src/resources/hints/dto/create-hint.dto.ts",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "create-hint.dto.ts",
+                           "longName":  "src/resources/hints/dto/create-hint.dto.ts",
+                           "path":  "src/resources/hints/dto/create-hint.dto.ts"
+                       },
+                       {
+                           "key":  "mad-lessons-service:src/resources/lesson-progress/lesson-progress.service.ts",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "lesson-progress.service.ts",
+                           "longName":  "src/resources/lesson-progress/lesson-progress.service.ts",
+                           "path":  "src/resources/lesson-progress/lesson-progress.service.ts"
+                       },
+                       {
+                           "key":  "mad-lessons-service:src/resources/answers/dto/validate-answers.dto.ts",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "validate-answers.dto.ts",
+                           "longName":  "src/resources/answers/dto/validate-answers.dto.ts",
+                           "path":  "src/resources/answers/dto/validate-answers.dto.ts"
+                       },
+                       {
+                           "key":  "mad-lessons-service:src/resources/hints/entities/hint.entity.ts",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "hint.entity.ts",
+                           "longName":  "src/resources/hints/entities/hint.entity.ts",
+                           "path":  "src/resources/hints/entities/hint.entity.ts"
+                       },
+                       {
+                           "key":  "mad-lessons-service:src/resources/answers/dto/validate-answer.dto.ts",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "validate-answer.dto.ts",
+                           "longName":  "src/resources/answers/dto/validate-answer.dto.ts",
+                           "path":  "src/resources/answers/dto/validate-answer.dto.ts"
+                       },
+                       {
+                           "key":  "mad-lessons-service:src/resources/assessment-progress/assessment-progress.service.ts",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "assessment-progress.service.ts",
+                           "longName":  "src/resources/assessment-progress/assessment-progress.service.ts",
+                           "path":  "src/resources/assessment-progress/assessment-progress.service.ts"
+                       },
+                       {
+                           "key":  "mad-lessons-service:src/resources/lesson-progress/lesson-progress.controller.spec.ts",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "lesson-progress.controller.spec.ts",
+                           "longName":  "src/resources/lesson-progress/lesson-progress.controller.spec.ts",
+                           "path":  "src/resources/lesson-progress/lesson-progress.controller.spec.ts"
+                       },
+                       {
+                           "key":  "mad-lessons-service:src/resources/assessment-progress/assessment-progress.controller.ts",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "assessment-progress.controller.ts",
+                           "longName":  "src/resources/assessment-progress/assessment-progress.controller.ts",
+                           "path":  "src/resources/assessment-progress/assessment-progress.controller.ts"
+                       },
+                       {
+                           "key":  "mad-lessons-service:src/resources/lesson-progress/lesson-progress.controller.ts",
+                           "enabled":  true,
+                           "qualifier":  "FIL",
+                           "name":  "lesson-progress.controller.ts",
+                           "longName":  "src/resources/lesson-progress/lesson-progress.controller.ts",
+                           "path":  "src/resources/lesson-progress/lesson-progress.controller.ts"
+                       },
+                       {
+                           "key":  "mad-lessons-service",
+                           "enabled":  true,
+                           "qualifier":  "TRK",
+                           "name":  "MAD lessons Service",
+                           "longName":  "MAD lessons Service"
+                       }
+                   ],
+    "facets":  [
+
+               ]
+}
